@@ -3,7 +3,6 @@
 
 [![Website](https://img.shields.io/badge/Website-experimentlab.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://experimentlab.in)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-shreyansh12183-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
-[![Twitter/X](https://img.shields.io/badge/Twitter-@shreyansh0__1-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/shreyansh0_1)
 [![Email](https://img.shields.io/badge/Email-shreyansh@experimentlab.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyansh@experimentlab.in)
 
 ---
