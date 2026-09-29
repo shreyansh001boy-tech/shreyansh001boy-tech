@@ -4,8 +4,8 @@ Private language models, deployed inside your own network.
 [ExperimentLab](https://experimentlab.in) · Varanasi, India
 
 I fine-tune small language models for one domain, evaluate them against your own documents, and
-install them behind your firewall. No prompt or document leaves your network, and there is no
-per-token bill.
+install them behind your firewall — together with the website, API and automation built around them.
+No prompt or document leaves your network, and there is no per-token bill.
 
 ---
 
@@ -29,6 +29,26 @@ Corpora I built and published: [Hinglish-English STEM 500k](https://huggingface.
 
 ---
 
+## What I build
+
+**Backend.** Product APIs, admin panels and data stores deployed as a single self-hosted binary on a
+VPS you own: schema and row permissions, authentication, file storage, realtime updates and
+server-side hooks. You get the repository, the server and the backup schedule — not a vendor lock-in.
+
+**Web frontends.** TypeScript and React product UI, shipped on static hosting. Public example:
+[craftora](https://github.com/shreyansh001boy-tech/craftora) — 28 production dependencies, IndexedDB
+persistence, and no server code anywhere in the repository.
+
+**Model integration.** The adapters above, or your model selection, behind your own endpoint:
+retrieval over your documents, streamed responses, per-key rate limits, and an evaluation set that
+stays with you.
+
+**Workflow automation.** WhatsApp, Google Sheets, PDF and Tally or ERP pipelines. The model handles
+the judgement step — classify, extract, draft — and deterministic code handles the transaction.
+Every rule is readable, because a business cannot audit a prompt.
+
+---
+
 ## How engagements work
 
 1. **Readiness audit** — 2 to 3 weeks, fixed fee. We benchmark candidate models on a sample of your
@@ -40,6 +60,8 @@ Corpora I built and published: [Hinglish-English STEM 500k](https://huggingface.
    documented rebuild path. Retainer covers refresh, re-evaluation and uptime.
 
 Stack: Unsloth, Hugging Face TRL, PEFT/LoRA, NF4 quantization, vLLM, Docker, Qdrant.
+Product side: TypeScript, React, Vite, IndexedDB, static and edge hosting, self-hosted single-binary
+backends.
 
 ---
 
@@ -50,8 +72,9 @@ Stack: Unsloth, Hugging Face TRL, PEFT/LoRA, NF4 quantization, vLLM, Docker, Qdr
 - Air-gapped deployment supports your DPDP or ISO 27001 obligations. It does not discharge them.
 - You deal with the engineer who builds and deploys it. No account managers, no bench.
 
-Every claim here links to a model, dataset, notebook, or live URL you can open. If I cannot link it,
-I do not claim it.
+Every model, dataset and demo above links to something you can open right now. If I cannot link it,
+I do not claim it. Client work is described under NDA where the client asks for it; references come
+before you commit to anything.
 
 ---
 
