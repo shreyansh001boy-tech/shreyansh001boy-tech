@@ -1,52 +1,67 @@
-# Shreyansh Singh 👋
-### Founder & Principal AI Systems Engineer — [ExperimentLab.in](https://experimentlab.in)
+# Shreyansh Singh
 
-[![Website](https://img.shields.io/badge/Website-experimentlab.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://experimentlab.in)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-shreyansh12183-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
-[![Email](https://img.shields.io/badge/Email-shreyansh@experimentlab.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyansh@experimentlab.in)
+Private language models, deployed inside your own network.
+[ExperimentLab](https://experimentlab.in) · Varanasi, India
 
----
-
-## ⚡ What I Build
-
-I specialize in **domain-specialized Small Language Models (SLMs)**, **air-gapped on-premise AI deployments**, and **autonomous agentic workflows** designed for privacy-critical enterprise sectors (Legal, Silicon Hardware EDA, Biomedical, and Scientific Computing).
-
-- 🔒 **Zero Data Leakage:** Air-gapped on-premise models running behind client firewalls with zero third-party API dependencies.
-- ⚡ **High Efficiency Inference:** Models quantized in 4-bit NF4 executing with under 6.5 GB VRAM footprint on consumer-grade hardware.
-- 🧪 **Verifiable R&D:** Every model weight, LoRA adapter configuration, and training loss curve is published openly with reproducible Google Colab evaluation suites.
+I fine-tune small language models for one domain, evaluate them against your own documents, and
+install them behind your firewall. No prompt or document leaves your network, and there is no
+per-token bill.
 
 ---
 
-## 🚀 Domain-Specialized Open-Source SLM Fleet
+## Domain-specialised models
 
-All models are fine-tuned on the **OLMo-2-7B** open-weight base architecture and available for live interactive testing:
+Five Apache-2.0 LoRA adapters, each published with its base model, a written evaluation report and a
+notebook that reproduces the result.
 
-| Model | Domain & Specialization | 1-Click Interactive Colab | Hugging Face Repository |
-| :--- | :--- | :---: | :---: |
-| **Vidhi-AI-Instruct** | ⚖️ Indian Legal Reasoning, Statutory Compliance & Contract Risk Audit | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/6ba6a61ee99c4cf94044fe49dd509ba7/1_test_vidhi_ai_legal_colab.ipynb) | [shreyansh12183/Vidhi-AI-Instruct](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) |
-| **Silicon-RTL-EDA** | ⚡ Verilog HDL, RTL Synthesis, Timing Closure & EDA Optimization | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/76305fa14b9252e71d409c99ce3fd206/2_test_silicon_rtl_eda_colab.ipynb) | [shreyansh12183/olmo2-7b-silicon-rtl-eda](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) |
-| **Shreyansh-STEM-AI-7B** | 🔬 Multi-Disciplinary Scientific Reasoning & Analytical Formulations | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/4084b9de16d6c91f449c4f8226044eeb/6_test_stem_ai_7b_colab.ipynb) | [shreyansh12183/Shreyansh-STEM-AI-7B](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-7B) |
-| **PhD-Pure-Math** | 📐 Proof Synthesis, Algebraic Topology & Differential Geometry | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/1d1120606c91b8fb734d26116ab0edae/4_test_phd_pure_math_colab.ipynb) | [shreyansh12183/olmo2-7b-phd-pure-math](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) |
-| **BioMed-Chem** | 🧬 Molecular Informatics, Organic Synthesis & Biochemical Pathways | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/d194cb0b92c5478dc8c88e3fdff72dae/3_test_biomed_chem_colab.ipynb) | [shreyansh12183/olmo2-7b-biomed-chem](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) |
-| **Astro-Logic** | 🌌 Orbital Dynamics, Stellar Mechanics & Relativistic Calculations | [![Colab](https://img.shields.io/badge/Colab-Run_Live-orange?logo=googlecolab)](https://colab.research.google.com/gist/shreyansh001boy-tech/ea36f050bf1fdf992c8858348e10ffd8/5_test_astro_logic_colab.ipynb) | [shreyansh12183/olmo2-7b-astro-logic](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) |
+| Model | Domain | Base | Artifacts |
+| :--- | :--- | :--- | :--- |
+| Vidhi-AI-Instruct | Indian legal reasoning, statutory compliance, contract risk | Qwen2.5-7B-Instruct | [model](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) · [eval](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/6ba6a61ee99c4cf94044fe49dd509ba7/1_test_vidhi_ai_legal_colab.ipynb) |
+| olmo2-7b-silicon-rtl-eda | Verilog HDL, RTL synthesis, timing closure | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/76305fa14b9252e71d409c99ce3fd206/2_test_silicon_rtl_eda_colab.ipynb) |
+| olmo2-7b-phd-pure-math | Proof synthesis, algebra, differential geometry | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/1d1120606c91b8fb734d26116ab0edae/4_test_phd_pure_math_colab.ipynb) |
+| olmo2-7b-biomed-chem | Molecular informatics, organic synthesis, pathways | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/d194cb0b92c5478dc8c88e3fdff72dae/3_test_biomed_chem_colab.ipynb) |
+| olmo2-7b-astro-logic | Orbital dynamics, stellar mechanics, relativistic calculation | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/ea36f050bf1fdf992c8858348e10ffd8/5_test_astro_logic_colab.ipynb) |
 
-> 🛠️ **Unified Fleet Cockpit:** To switch between all models dynamically in a single Gradio interface, run the [Unified Fleet Colab Notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/f80a6e8cb1a188cbb844a66d237c8b22/test_all_domain_models_colab.ipynb).
+Corpora I built and published: [Hinglish-English STEM 500k](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k) · [1B STEM pretrain set](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english) · [Vidhi-AI 1k curated](https://huggingface.co/datasets/shreyansh12183/vidhi-ai-1k-curated)
+
+## Support agent you can embed today
+
+Live on [experimentlab.in](https://experimentlab.in); source in
+[vigyan_ai](https://github.com/shreyansh001boy-tech/vigyan_ai). One script tag.
+
+- Loader: 2.1 KB transferred (5.9 KB raw)
+- Edge inference on `llama-3.2-3b-instruct`, failing over to `llama-3.1-8b-instruct-fp8`, then
+  `qwen2.5-7b-instruct`
+- Per-IP sliding-window rate limit of 20 requests/minute, strict CORS allowlist, sandboxed iframe
+- Frequently asked questions are answered from a knowledge cache without an inference call
 
 ---
 
-## 🛠️ Tech Stack & Engineering Rigor
+## How engagements work
 
-- **Fine-Tuning & Optimization:** Unsloth, Hugging Face TRL (`SFTTrainer`), PEFT (LoRA / QLoRA), BitsAndBytes NF4 Quantization
-- **Inference Engines:** vLLM, Hugging Face Transformers, Ollama GGUF (4-bit / 8-bit), llama.cpp
-- **Agent Architectures:** Autonomous Multi-Agent Orchestration, Tool Use, LangGraph, Air-Gapped Local Vector DBs (Chroma, Qdrant)
-- **Deployment & Production:** Docker, FastAPI, Gradio, Cloudflare Zero-Trust, On-Premise Enterprise Servers
+1. **Readiness audit** — 2 to 3 weeks, fixed fee. We benchmark candidate models on a sample of your
+   documents and give you a written go/no-go: accuracy ceiling, failure modes, hardware sizing, cost
+   of ownership. If a small model will not do the job, the report says so.
+2. **Pilot** — fine-tuning on your corpus, scored against the same held-out set, so improvement is
+   measured rather than asserted.
+3. **Deployment** — weights, adapters and vector store on hardware you own, on your network, with a
+   documented rebuild path. Retainer covers refresh, re-evaluation and uptime.
+
+Stack: Unsloth, Hugging Face TRL, PEFT/LoRA, NF4 quantization, vLLM, Docker, Qdrant.
 
 ---
 
-## 📬 Enterprise Inquiries & Engagements
+## Limits, stated plainly
 
-Need a customized, private SLM fine-tuned on your organization's confidential proprietary corpus or looking to deploy air-gapped local AI assistants?
+- These are 7B-class models. They win on privacy, latency and cost — not on open-ended reasoning.
+  An audit tells you which one you need before you buy hardware.
+- Air-gapped deployment supports your DPDP or ISO 27001 obligations. It does not discharge them.
+- You deal with the engineer who builds and deploys it. No account managers, no bench.
 
-- 🌐 **Company Website:** [ExperimentLab.in](https://experimentlab.in)
-- 📧 **Direct Contact:** [shreyansh@experimentlab.in](mailto:shreyansh@experimentlab.in)
-- 📍 **Location:** Bengaluru / New Delhi, India
+Every claim here links to a model, dataset, evaluation report, notebook, source file, or live URL
+you can open. If I cannot link it, I do not claim it.
+
+---
+
+**Email:** [shreyansh@experimentlab.in](mailto:shreyansh@experimentlab.in)
+**Hugging Face:** [shreyansh12183](https://huggingface.co/shreyansh12183)
