@@ -27,16 +27,6 @@ is a hands-on demo, not a benchmark harness.
 
 Corpora I built and published: [Hinglish-English STEM 500k](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k) · [1B STEM pretrain set](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english) · [Vidhi-AI 1k curated](https://huggingface.co/datasets/shreyansh12183/vidhi-ai-1k-curated)
 
-## Support agent you can embed today
-
-Live on [experimentlab.in](https://experimentlab.in). One script tag; source available on request.
-
-- Loader: 2.1 KB transferred (5.9 KB raw)
-- Edge inference on `llama-3.2-3b-instruct`, failing over to `llama-3.1-8b-instruct-fp8`, then
-  `qwen2.5-7b-instruct`
-- Per-IP sliding-window rate limit of 20 requests/minute, strict CORS allowlist, sandboxed iframe
-- Frequently asked questions are answered from a knowledge cache without an inference call
-
 ---
 
 ## How engagements work
