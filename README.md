@@ -9,25 +9,27 @@ per-token bill.
 
 ---
 
-## Domain-specialised models
+## Domain-specialised adapters
 
-Five Apache-2.0 LoRA adapters, each published with its base model, a written evaluation report and a
-notebook that reproduces the result.
+Five Apache-2.0 LoRA adapters, with a Colab chat demo for each. Adapters are weights only — apply
+them to the base model named in the row.
 
-| Model | Domain | Base | Artifacts |
-| :--- | :--- | :--- | :--- |
-| Vidhi-AI-Instruct | Indian legal reasoning, statutory compliance, contract risk | Qwen2.5-7B-Instruct | [model](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) · [eval](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/6ba6a61ee99c4cf94044fe49dd509ba7/1_test_vidhi_ai_legal_colab.ipynb) |
-| olmo2-7b-silicon-rtl-eda | Verilog HDL, RTL synthesis, timing closure | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/76305fa14b9252e71d409c99ce3fd206/2_test_silicon_rtl_eda_colab.ipynb) |
-| olmo2-7b-phd-pure-math | Proof synthesis, algebra, differential geometry | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/1d1120606c91b8fb734d26116ab0edae/4_test_phd_pure_math_colab.ipynb) |
-| olmo2-7b-biomed-chem | Molecular informatics, organic synthesis, pathways | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/d194cb0b92c5478dc8c88e3fdff72dae/3_test_biomed_chem_colab.ipynb) |
-| olmo2-7b-astro-logic | Orbital dynamics, stellar mechanics, relativistic calculation | OLMo-2-1124-7B-Instruct | [model](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) · [eval](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic/blob/main/eval_report.md) · [notebook](https://colab.research.google.com/gist/shreyansh001boy-tech/ea36f050bf1fdf992c8858348e10ffd8/5_test_astro_logic_colab.ipynb) |
+| Model | Domain | Base model | Adapter | Try |
+| :--- | :--- | :--- | :--- | :--- |
+| [Vidhi-AI-Instruct](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | Indian legal reasoning, statutory compliance, contract risk | Qwen2.5-7B-Instruct, r=8 | 10 MB | [Colab](https://colab.research.google.com/gist/shreyansh001boy-tech/6ba6a61ee99c4cf94044fe49dd509ba7/1_test_vidhi_ai_legal_colab.ipynb) |
+| [olmo2-7b-silicon-rtl-eda](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | Verilog HDL, RTL synthesis, timing closure | OLMo-2-1124-7B-Instruct, r=16 | 160 MB | [Colab](https://colab.research.google.com/gist/shreyansh001boy-tech/76305fa14b9252e71d409c99ce3fd206/2_test_silicon_rtl_eda_colab.ipynb) |
+| [olmo2-7b-phd-pure-math](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | Proof synthesis, algebra, differential geometry | OLMo-2-1124-7B-Instruct, r=16 | 160 MB | [Colab](https://colab.research.google.com/gist/shreyansh001boy-tech/1d1120606c91b8fb734d26116ab0edae/4_test_phd_pure_math_colab.ipynb) |
+| [olmo2-7b-biomed-chem](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | Molecular informatics, organic synthesis, pathways | OLMo-2-1124-7B-Instruct, r=16 | 160 MB | [Colab](https://colab.research.google.com/gist/shreyansh001boy-tech/d194cb0b92c5478dc8c88e3fdff72dae/3_test_biomed_chem_colab.ipynb) |
+| [olmo2-7b-astro-logic](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | Orbital dynamics, stellar mechanics, relativistic calculation | OLMo-2-1124-7B-Instruct, r=16 | 160 MB | [Colab](https://colab.research.google.com/gist/shreyansh001boy-tech/ea36f050bf1fdf992c8858348e10ffd8/5_test_astro_logic_colab.ipynb) |
+
+Each Colab loads the base model plus adapter in 4-bit NF4 on a free T4 and opens a Gradio chat — it
+is a hands-on demo, not a benchmark harness.
 
 Corpora I built and published: [Hinglish-English STEM 500k](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k) · [1B STEM pretrain set](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english) · [Vidhi-AI 1k curated](https://huggingface.co/datasets/shreyansh12183/vidhi-ai-1k-curated)
 
 ## Support agent you can embed today
 
-Live on [experimentlab.in](https://experimentlab.in); source in
-[vigyan_ai](https://github.com/shreyansh001boy-tech/vigyan_ai). One script tag.
+Live on [experimentlab.in](https://experimentlab.in). One script tag; source available on request.
 
 - Loader: 2.1 KB transferred (5.9 KB raw)
 - Edge inference on `llama-3.2-3b-instruct`, failing over to `llama-3.1-8b-instruct-fp8`, then
@@ -58,8 +60,8 @@ Stack: Unsloth, Hugging Face TRL, PEFT/LoRA, NF4 quantization, vLLM, Docker, Qdr
 - Air-gapped deployment supports your DPDP or ISO 27001 obligations. It does not discharge them.
 - You deal with the engineer who builds and deploys it. No account managers, no bench.
 
-Every claim here links to a model, dataset, evaluation report, notebook, source file, or live URL
-you can open. If I cannot link it, I do not claim it.
+Every claim here links to a model, dataset, notebook, or live URL you can open. If I cannot link it,
+I do not claim it.
 
 ---
 
