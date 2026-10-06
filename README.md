@@ -73,7 +73,6 @@ Rather than simple prompt-tuning, Vigyan AI models are engineered through a mult
 | :--- | :--- | :--- | :---: |
 | [vigyan-ai-journey-docs](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) | 10-Chapter Technical Whitepaper | Post-training mechanics, MoE router calibration, failure post-mortems | CC BY-NC 4.0 |
 | [vigyan-stem-eval-showcase](https://github.com/shreyansh001boy-tech/vigyan-stem-eval-showcase) | Neuro-Symbolic STEM Eval Harness | SymPy AST Engine + KùzuDB GraphRAG vs smolagents | CC BY-NC 4.0 |
-| [vigyan-32b-benchmark-reports](https://github.com/shreyansh001boy-tech/vigyan-32b-benchmark-reports) | 32B Benchmark Audits | Gate 1 math recovery, collapse diagnostics, Chief Judge scorecards | CC BY-NC 4.0 |
 | [vigyan-industrial-agent-skills](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) | Industrial Agent Skills Library | Aerospace, biomedical, RTL timing solvers & runbooks | CC BY-NC 4.0 |
 | [vigyan-7b-demo](https://github.com/shreyansh001boy-tech/vigyan-7b-demo) | Interactive Model Zoo | 18+ 1-click Colab demos across 1.5B → 32B models | CC BY-NC 4.0 |
 
