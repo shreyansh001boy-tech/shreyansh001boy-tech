@@ -42,6 +42,20 @@ LoRA adapters with dedicated 1-click Colab Gradio setups running on free T4 hard
 
 ---
 
+### 🏛️ Sovereign AI Research & Engineering Ecosystem
+
+Open-source and non-commercial research repositories detailing our architectural whitepapers, evaluation engines, industrial solvers, and forensic audit reports:
+
+| Repository | Focus & Domain | Architecture / Key Artifacts | License |
+| :--- | :--- | :--- | :---: |
+| [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) | **10-Chapter Technical Whitepaper** | Post-training mechanics, MoE router calibration, attention-subspace adaptation, failure post-mortems | CC BY-NC 4.0 |
+| [**vigyan-stem-eval-showcase**](https://github.com/shreyansh001boy-tech/vigyan-stem-eval-showcase) | **Neuro-Symbolic STEM Evaluation Harness** | SymPy AST Engine + C++ KùzuDB GraphRAG vs external code engines (smolagents) | CC BY-NC 4.0 |
+| [**vigyan-32b-benchmark-reports**](https://github.com/shreyansh001boy-tech/vigyan-32b-benchmark-reports) | **32B Sovereign Benchmark Audits** | Gate 1 mathematical recovery audit, baseline collapse diagnostics, Chief Judge scorecards | CC BY-NC 4.0 |
+| [**vigyan-industrial-agent-skills**](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) | **Industrial Agent Skills Library** | Executable runbooks & solvers for aerospace orbital mechanics, biomedical signals, and RTL timing | CC BY-NC 4.0 |
+| [**vigyan-7b-demo**](https://github.com/shreyansh001boy-tech/vigyan-7b-demo) | **Interactive Model Zoo & Colab Hub** | 18+ 1-click Google Colab Gradio demos across 1.5B, 2B, 3B, 7B MoE, and 32B models | CC BY-NC 4.0 |
+
+---
+
 ### 🛠️ Core Technical Focus
 
 - **Post-Training & Alignment:** SFT, DPO, LoRA / QLoRA, TRL, Unsloth
