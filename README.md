@@ -27,17 +27,17 @@ Sovereign STEM reasoning models calibrated for circuit physics, semiconductor VL
 
 ---
 
-## Domain Research Adapters
+## First-Gen Domain Specialists & Legal Co-pilot (1-Click Colab Demos)
 
-LoRA adapters on OLMo-2-7B for specialized scientific domains. Run on free T4 hardware via 4-bit NF4.
+LoRA adapters fine-tuned on OLMo-2-7B and Qwen2.5-7B for specialized scientific & statutory domains. Run live PyTorch 4-bit GPU generation on free T4 hardware with interactive Gradio interfaces:
 
-| Model | Specialty | Adapter Size | Demo |
-| :--- | :--- | :---: | :---: |
-| [**olmo2-7b-silicon-rtl-eda**](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | Verilog HDL, RTL Synthesis & Timing | 160 MB | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/silicon_rtl_eda_demo.ipynb) |
-| [**olmo2-7b-phd-pure-math**](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | Proof Synthesis & Differential Geometry | 160 MB | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/phd_pure_math_demo.ipynb) |
-| [**olmo2-7b-biomed-chem**](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | Molecular Informatics & Pathways | 160 MB | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/biomed_chem_demo.ipynb) |
-| [**olmo2-7b-astro-logic**](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | Orbital Dynamics & Relativistic Calculations | 160 MB | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/astro_logic_demo.ipynb) |
-| [**Vidhi-AI-Instruct**](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | Indian Legal Reasoning & Compliance | 10 MB | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/vidhi_ai_legal_demo.ipynb) |
+| Model | Domain & Specialty | Base & Size | Certified Benchmark | 1-Click Colab Gradio Demo |
+| :--- | :--- | :---: | :---: | :---: |
+| [**Vidhi-AI-Instruct**](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | **Indian Statutory Law (BNS, BNSS, BSA, GST)** | Qwen 2.5 7B · 10 MB | **88.2% BNS 2023** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/46a6c9e902e161ff947be68fc156e709/colab_demo_vidhi_7b.ipynb) |
+| [**olmo2-7b-phd-pure-math**](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | **Doctoral Pure Math (Topology, Lie Algebras)** | OLMo-2 7B · 160 MB | **76.8% MATH L5** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/f13664784d899f9a72509d6003b3b791/colab_demo_olmo2_pure_math.ipynb) |
+| [**olmo2-7b-silicon-rtl-eda**](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | **Hardware RTL, AXI4 & Synthesizable Verilog** | OLMo-2 7B · 160 MB | **Synthesizable RTL** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/d7e16e7f902372db11ba5b9490f28adf/colab_demo_olmo2_silicon_rtl.ipynb) |
+| [**olmo2-7b-biomed-chem**](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | **Molecular Chemistry & Pharmacology (ADME)** | OLMo-2 7B · 160 MB | **Reaction Mechanics** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/12fa1afcfe242451f0f2d31a1ccccd58/colab_demo_olmo2_biomed_chem.ipynb) |
+| [**olmo2-7b-astro-logic**](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | **Astrophysics & First-Order Symbolic Proofs** | OLMo-2 7B · 160 MB | **Formal Proofs** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/6a524659f571f0cd0ed5d218868a4863/colab_demo_olmo2_astro_logic.ipynb) |
 
 ---
 
