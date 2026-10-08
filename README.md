@@ -1,94 +1,68 @@
 # Shreyansh Singh
+**Founder, Vigyan AI & ExperimentLab** · Varanasi, India · [experimentlab.in](https://experimentlab.in)
 
-**Founder, Vigyan AI** · Varanasi, India · [experimentlab.in](https://experimentlab.in)
+> **"Building sovereign cognitive infrastructure — domain-specialized Small Language Models (SLMs) and Mixture-of-Experts (MoE) that run 100% offline on edge hardware with zero recurring API costs."**
 
-Building sovereign, domain-specialized Small Language Models and edge reasoning systems for STEM.
-
-[Hugging Face](https://huggingface.co/shreyansh12183) · [Email](mailto:shreyansh@experimentlab.in)
-
-![HF Models](https://img.shields.io/badge/HF_Models-29-yellow?logo=huggingface&logoColor=white) ![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey) ![Focus](https://img.shields.io/badge/Focus-STEM_SLMs_%26_MoE-blue)
+[Hugging Face (@shreyansh12183)](https://huggingface.co/shreyansh12183) · [Kaggle (@shreyansh00singh)](https://www.kaggle.com/shreyansh00singh) · [Email](mailto:shreyansh@experimentlab.in)  
+![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey) ![Focus](https://img.shields.io/badge/Focus-Sovereign_STEM_%26_Legal_SLMs-blue) ![Compute](https://img.shields.io/badge/Edge-Offline_100%25-green)
 
 ---
 
-## Flagship Foundation Models · 1.5B to 32B
+## 🏛️ Sovereign Model Generations (Interactive Colab Demos)
 
-Sovereign STEM reasoning models calibrated for circuit physics, semiconductor VLSI EDA, aerospace dynamics, and symbolic mathematics.
+All models are released under **CC BY-NC 4.0** for research and non-commercial development. Test them 1-by-1 on Google Colab's free T4 GPU via interactive **Gradio** web apps:
 
-| Model | Parameters & Architecture | Primary Domain | Demo |
-| :--- | :---: | :--- | :---: |
-| [**Vigyan AI 7B MoE**](https://huggingface.co/shreyansh12183/vigyan-olmoe-1b-7b-masterpiece-adapter) | 7B · 64 Sparse Experts, Top-8 | JEE / CBSE / Olympiad Math | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_7b_moe_flagship_demo.ipynb) |
-| [**Vigyan-AI-32B-Titan-v1**](https://huggingface.co/shreyansh12183/Vigyan-AI-32B-Titan-v1) | 32B Dense | PhD Research · Multi-hop theorems | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_32b_titan_demo.ipynb) |
-| [**Vigyan-7B-STEM-DPO-v1**](https://huggingface.co/shreyansh12183/Vigyan-7B-STEM-DPO-v1) | 7B Dense | Deterministic Physics & Circuits | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_7b_demo.ipynb) |
-| [**Vigyan-2B GRPO Reasoner**](https://huggingface.co/shreyansh12183/vigyan-2b-reasoning-grpo) | 2.4B · GRPO Policy Gradient | Test-Time Compute · `<think>` steps | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_2b_grpo_reasoning_demo.ipynb) |
-| [**Shreyansh-STEM-AI-2B-v3**](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-2B-v3) | 2.4B · 22-Layer DUS + CPT | DUS Foundation · Seam-healed manifold | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_2b_dus_cpt_healed_demo.ipynb) |
-| [**Vigyan-1.5B 4×MoE**](https://huggingface.co/shreyansh12183/Vigyan-1.5B-4x-MoE) | 1.5B · 4 Experts, Top-1 | Compact Edge MoE · Q4_K_M GGUF | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_1_5b_moe_demo.ipynb) |
+### 🥇 Generation 3: Sovereign Flagships & Production Masterpieces
+*Our latest production models, created through mathematical model merging (SLERP) and DeepSeek-R1 distilled reasoning.*
 
-*Full model zoo with 1-click demos: [vigyan-7b-demo](https://github.com/shreyansh001boy-tech/vigyan-7b-demo)*
-
----
-
-## First-Gen Domain Specialists & Legal Co-pilot (1-Click Colab Demos)
-
-LoRA adapters fine-tuned on OLMo-2-7B and Qwen2.5-7B for specialized scientific & statutory domains. Run live PyTorch 4-bit GPU generation on free T4 hardware with interactive Gradio interfaces:
-
-| Model | Domain & Specialty | Base & Size | Certified Benchmark | 1-Click Colab Gradio Demo |
+| Model Name | Specialization & Focus | Footprint | Benchmark | 1-Click Colab Demo |
 | :--- | :--- | :---: | :---: | :---: |
-| [**Vidhi-AI-Instruct**](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | **Indian Statutory Law (BNS, BNSS, BSA, GST)** | Qwen 2.5 7B · 10 MB | **88.2% BNS 2023** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/46a6c9e902e161ff947be68fc156e709/colab_demo_vidhi_7b.ipynb) |
-| [**olmo2-7b-phd-pure-math**](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | **Doctoral Pure Math (Topology, Lie Algebras)** | OLMo-2 7B · 160 MB | **76.8% MATH L5** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/f13664784d899f9a72509d6003b3b791/colab_demo_olmo2_pure_math.ipynb) |
-| [**olmo2-7b-silicon-rtl-eda**](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | **Hardware RTL, AXI4 & Synthesizable Verilog** | OLMo-2 7B · 160 MB | **Synthesizable RTL** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/d7e16e7f902372db11ba5b9490f28adf/colab_demo_olmo2_silicon_rtl.ipynb) |
-| [**olmo2-7b-biomed-chem**](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | **Molecular Chemistry & Pharmacology (ADME)** | OLMo-2 7B · 160 MB | **Reaction Mechanics** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/12fa1afcfe242451f0f2d31a1ccccd58/colab_demo_olmo2_biomed_chem.ipynb) |
-| [**olmo2-7b-astro-logic**](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | **Astrophysics & First-Order Symbolic Proofs** | OLMo-2 7B · 160 MB | **Formal Proofs** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/6a524659f571f0cd0ed5d218868a4863/colab_demo_olmo2_astro_logic.ipynb) |
+| [**Vidhi AI 1.5B Masterpiece**](https://huggingface.co/shreyansh12183/vidhi-ai-1.5b-sovereign-masterpiece) | **Indian Statutory Legal SLM** (BNS 2023, BNSS, BSA) | 1.06 GB | **85.0% Unseen Pass** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/97736d594721ab8e37912cd381fdf968/colab_demo_vidhi_1_5b.ipynb) |
+| [**Vigyan 7B Quad-Master**](https://huggingface.co/shreyansh12183/vigyan-olmo2-7b-quad-master) | **Dense Flagship STEM** (SLERP Fusion of 4 Specialists) | 4.26 GB | **SLERP + DPO** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/94f86027e672aa60dbda383eca6cf122/colab_demo_vigyan_7b_quad_master.ipynb) |
+| [**Vigyan OLMoE 1B-7B DPO**](https://huggingface.co/shreyansh12183/vigyan-olmoe-1b-7b-dpo-masterpiece) | **Dynamic Top-2 Sparse MoE** (1.3B Active Params/Token) | 4.02 GB | **Top-2 Router** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/1222eec06995b9b046bb76096495a653/colab_demo_vigyan_olmoe_1b_7b.ipynb) |
 
 ---
 
-## Open Datasets
+### 🥈 Generation 2: Architecture Experiments & RL Alignment
+*Pioneering explorations in depth up-scaling, test-time reasoning RL (GRPO), and compact edge mixture-of-experts.*
 
-| Dataset | Description | Downloads |
-| :--- | :--- | :---: |
-| [shreyansh-1B-SLM-pretrain-stem-english](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english) | 1B token sovereign STEM English pretraining corpus | 427 |
-| [shreyansh-hinglish-english-stem-500k](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k) | 500K Hinglish-English STEM instruction pairs | 74 |
-| [vidhi-ai-1k-curated](https://huggingface.co/datasets/shreyansh12183/vidhi-ai-1k-curated) | 1K curated Indian legal QA pairs | 50 |
-
----
-
-## 7-Pillar Post-Training Lifecycle
-
-Rather than simple prompt-tuning, Vigyan AI models are engineered through a multi-stage sovereign post-training pipeline:
-
-| Stage | Method | Output | Key Result |
-| :---: | :--- | :--- | :--- |
-| **1 · DUS** | Depth Up-Scaling — 22-layer transformer splice | Shreyansh-STEM-AI-2B-v3 | Expanded capacity without full retraining |
-| **2 · CPT** | Continual Pre-Training — 1B token seam healing | Healed manifold | Query-key subspace re-alignment across spliced layers |
-| **3 · SFT** | All-module linear (q, k, v, o, gate, up, down) · Dynamic early-stop @ loss 0.1335 | STEM Foundation | Representation collapse averted |
-| **4 · GRPO** | Policy gradient RL — DeepSeek-R1 style | vigyan-2b-reasoning-grpo | Autonomous `<think>` reasoning chains |
-| **5 · DPO** | Direct Preference Optimization | Vigyan-7B-STEM-DPO-v1 | Deterministic physics & calculus derivations |
-| **6 · MoE** | Sparse upcycling — Top-1 (1.5B) / Top-8 (7B) | Vigyan-1.5B-4×MoE · OLMoE | 64-expert router with negative-prompt calibration |
-| **7 · Edge** | Q4_K_M GGUF + SymPy AST engine + KùzuDB GraphRAG | Vigyan-Models-GGUF | +162.5% accuracy vs unassisted baseline |
+| Model Name | Innovation & Architecture | Parameters | Key Result | 1-Click Colab Demo |
+| :--- | :--- | :---: | :---: | :---: |
+| [**Vigyan-2B Reasoning GRPO**](https://huggingface.co/shreyansh12183/vigyan-2b-reasoning-grpo) | Group Relative Policy Optimization (RL) | 2.4B | Autonomous `<think>` steps | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/ff2d815ac5810c7d3729e9b8ee6f9894/colab_demo_vigyan_2b_grpo.ipynb) |
+| [**Shreyansh-STEM-AI-2B-v3**](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-2B-v3) | 22-Layer Depth Up-Scaling (DUS) + CPT | 2.4B | Seam-healed manifold | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/1f517b4c146d36fd2aee72c0d4dacc85/colab_demo_shreyansh_stem_2b_dus.ipynb) |
+| [**Vigyan-7B-STEM-DPO-v1**](https://huggingface.co/shreyansh12183/Vigyan-7B-STEM-DPO-v1) | Direct Preference Optimization (DPO) | 7B | Zero hallucination calculus | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/df09e101004eafae5c86cd2d7fb80a8c/colab_demo_vigyan_7b_stem_dpo.ipynb) |
+| [**Vigyan-1.5B 4×MoE**](https://huggingface.co/shreyansh12183/Vigyan-1.5B-4x-MoE) | Compact Edge MoE (Top-1 Sparse Router) | 1.5B | Sub-1GB RAM footprint | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/18daf8e5416d3e25ca0065b9052e1688/colab_demo_vigyan_1_5b_moe.ipynb) |
 
 ---
 
-## Research Repositories
+### 🥉 Generation 1: Specialized Domain Foundations
+*First-generation foundation models fine-tuned across individual scientific and legal domains.*
 
-| Repository | Focus | Key Artifacts | License |
-| :--- | :--- | :--- | :---: |
-| [vigyan-ai-journey-docs](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) | 10-Chapter Technical Whitepaper | Post-training mechanics, MoE router calibration, failure post-mortems | CC BY-NC 4.0 |
-| [vigyan-stem-eval-showcase](https://github.com/shreyansh001boy-tech/vigyan-stem-eval-showcase) | Neuro-Symbolic STEM Eval Harness | SymPy AST Engine + KùzuDB GraphRAG vs smolagents | CC BY-NC 4.0 |
-| [vigyan-industrial-agent-skills](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) | Industrial Agent Skills Library | Aerospace, biomedical, RTL timing solvers & runbooks | CC BY-NC 4.0 |
-| [vigyan-7b-demo](https://github.com/shreyansh001boy-tech/vigyan-7b-demo) | Interactive Model Zoo | 18+ 1-click Colab demos across 1.5B → 32B models | CC BY-NC 4.0 |
-
----
-
-## Production Systems
-
-| Application | Stack | Description |
-| :--- | :--- | :--- |
-| [**Craftora Studio**](https://craftora.vercel.app) | React 19 · Fabric.js 6 · Tailwind v4 · Framer Motion | Browser-only vector design studio — zero backend, zero signup. [Repo](https://github.com/shreyansh001boy-tech/craftora) |
-| [**BITS Grading Console**](https://github.com/shreyansh001boy-tech/bits-grading-console) | Vanilla JS · HTML5 · Automated Test Runners | High-throughput student code evaluation harness. [Live](https://shreyansh001boy-tech.github.io/bits-grading-console/) |
+| Model Name | Specialty & Domain | Certified Benchmark | 1-Click Colab Demo |
+| :--- | :--- | :---: | :---: |
+| [**Vidhi-AI-Instruct**](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | Indian Legal Advisory & Statutory RAG | **88.2% BNS 2023** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/46a6c9e902e161ff947be68fc156e709/colab_demo_vidhi_7b.ipynb) |
+| [**olmo2-7b-phd-pure-math**](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | Doctoral Mathematics & Proof Synthesis | **76.8% MATH L5** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/f13664784d899f9a72509d6003b3b791/colab_demo_olmo2_pure_math.ipynb) |
+| [**olmo2-7b-silicon-rtl-eda**](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | Hardware Architecture & Synthesizable RTL | **Synthesizable RTL** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/d7e16e7f902372db11ba5b9490f28adf/colab_demo_olmo2_silicon_rtl.ipynb) |
+| [**olmo2-7b-biomed-chem**](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | Molecular Chemistry & Pharmacology | **Reaction Mechanics** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/12fa1afcfe242451f0f2d31a1ccccd58/colab_demo_olmo2_biomed_chem.ipynb) |
+| [**olmo2-7b-astro-logic**](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | Astrophysics & Formal Symbolic Proofs | **Formal Proofs** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/6a524659f571f0cd0ed5d218868a4863/colab_demo_olmo2_astro_logic.ipynb) |
 
 ---
 
-## Core Technical Focus
+## 🔬 Sovereign Post-Training Pipeline
 
-**Post-Training & Alignment** — SFT · DPO · GRPO · LoRA / QLoRA · TRL · Unsloth  
-**Quantization & Inference** — NF4 · GGUF / llama.cpp · vLLM · ONNX Runtime  
-**Systems & Deployment** — Python · TypeScript · React · Docker · LanceDB · KùzuDB
+Rather than relying on generic prompts, Vigyan AI models are trained through an end-to-end post-training pipeline:
+1. **Depth Up-Scaling (DUS):** Non-destructive transformer splicing to increase parameter capacity.
+2. **Continual Pre-Training (CPT):** 1B-token domain corpus training to heal weight manifold seams.
+3. **Supervised Fine-Tuning (SFT):** All-linear module adaptation with loss-monitored early stopping.
+4. **Policy Gradient RL (GRPO):** DeepSeek-R1 style test-time reasoning without value-head overhead.
+5. **Direct Preference Optimization (DPO):** Contrastive alignment enforcing deterministic derivations.
+6. **Sparse Upcycling (MoE):** Transforming dense models into dynamic routing architectures.
+7. **Edge Quantization (GGUF):** Lossless Q4_K_M quantization for 100% offline CPU/GPU inference.
+
+---
+
+## 🛠️ Production Systems & Open Science
+
+- [**Craftora Studio**](https://craftora.vercel.app): In-browser vector design studio built with React 19 & Fabric.js 6 (Zero backend, zero signup).
+- [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs): 10-Chapter technical whitepaper documenting sovereign training mechanics.
+- [**vigyan-stem-eval-showcase**](https://github.com/shreyansh001boy-tech/vigyan-stem-eval-showcase): Neuro-Symbolic evaluation harness comparing SymPy AST + KùzuDB GraphRAG vs external agents.
