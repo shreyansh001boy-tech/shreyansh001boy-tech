@@ -1,13 +1,12 @@
 # Shreyansh Singh
 
-**Scholar-Engineer · BITS Pilani (Digital BS in AI & Data Science, Class of 2030)**  
+**Scholar-Engineer · Vigyan AI Research**  
 **Founder & Lead Architect @ [Vigyan AI](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)** · India  
 *Pioneering Sovereign Small Language Models (SLMs) and Deterministic Neuro-Symbolic Evaluation Engines for synthesizable Silicon EDA, PhD Mathematics, and Air-Gapped Edge Computing.*
 
 [![Hugging Face Hub](https://img.shields.io/badge/🤗%20Hugging%20Face-shreyansh12183-orange?style=for-the-badge)](https://huggingface.co/shreyansh12183)
 [![Public Sovereign Benchmark](https://img.shields.io/badge/🏛️%20GitHub-Vigyan%20Sovereign%20Benchmark-black?style=for-the-badge)](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)
 [![Kaggle Research](https://img.shields.io/badge/Kaggle-shreyansh00singh-20BEFF?style=for-the-badge)](https://www.kaggle.com/shreyansh00singh)
-[![BITS Pilani](https://img.shields.io/badge/BITS_Pilani-BS_in_AI_%26_Data_Science-red?style=for-the-badge)](https://www.bits-pilani.ac.in/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
@@ -23,8 +22,8 @@ I build sovereign, domain-specialized foundation architectures designed to run c
 * **Deterministic Chief Judge (No LLM Bias)**: Pioneered the elimination of subjective "LLM-as-a-Judge" grading by implementing deterministic evaluation via Python **SymPy CAS** (symbolic algebraic equivalence) and **IEEE 1364 Verilog AST** syntactical parsers.
 * **\$0 Cloud Post-Training Pipeline**: Engineered zero-cost, cloud-to-cloud training pipelines utilizing Kaggle Dual Tesla T4 GPUs with strict prompt loss masking (`label = -100`) and dynamic loss early stopping ($\text{loss} \le 0.48$).
 * **Academic & Institutional Alignment**:
-  * Enrolled scholar at **BITS Pilani** (Digital BS in AI & Data Science).
-  * Direct ecosystem engagement with **STPI Electropreneur Park**, **AIC-BHU**, and **PIEDS BITS Pilani**.
+  * Enrolled scholar at **Vigyan AI** .
+  * Direct ecosystem engagement with **STPI Electropreneur Park**, **AIC-BHU**, and **PIEDS Vigyan AI**.
 
 ---
 
@@ -69,7 +68,7 @@ All public research, evaluation datasets, and benchmarking scripts are released 
 @article{singh2026vigyan,
   title={Vigyan Sovereign Trilogy: Empirical Scaling Laws and Deterministic Symbolic-AST Evaluation of Edge Small Language Models},
   author={Singh, Shreyansh},
-  institution={Birla Institute of Technology and Science, Pilani (BITS Pilani)},
+  institution={Vigyan AI Open Research},
   journal={Vigyan AI Open Research},
   year={2026},
   url={https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark}
@@ -80,7 +79,5 @@ All public research, evaluation datasets, and benchmarking scripts are released 
 
 ## 📬 Contact & Institutional Inquiries
 
-* **Personal Email**: `shreyansh001boy.tech@gmail.com`
-* **Academic Email**: BITS Pilani institutional domain (`@pilani.bits-pilani.ac.in`)
 * **Hugging Face Hub**: [@shreyansh12183](https://huggingface.co/shreyansh12183)
 * **GitHub Profile**: [@shreyansh001boy-tech](https://github.com/shreyansh001boy-tech)
