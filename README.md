@@ -1,88 +1,86 @@
 # Shreyansh Singh
 
-**Founder & AI Systems Architect @ [ExperimentLab.in](https://experimentlab.in)** · India  
-*Building **Vigyan AI** — Sovereign Small Language Models (SLMs) and Sparse MoE architectures for formal mathematics, silicon semiconductor engineering, and edge robotics.*
+**Scholar-Engineer · BITS Pilani (Digital BS in AI & Data Science, Class of 2030)**  
+**Founder & Lead Architect @ [Vigyan AI](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)** · India  
+*Pioneering Sovereign Small Language Models (SLMs) and Deterministic Neuro-Symbolic Evaluation Engines for synthesizable Silicon EDA, PhD Mathematics, and Air-Gapped Edge Computing.*
 
-[![Hugging Face Showcase](https://img.shields.io/badge/🤗%20Hugging%20Face-Sovereign%20Fleet%20Hub-orange?style=for-the-badge)](https://huggingface.co/shreyansh12183)
-[![Verified Benchmark Harness](https://img.shields.io/badge/🏛️%20GitHub-Verified%20Benchmark%20Harness-black?style=for-the-badge)](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness)
-[![Live Interactive Studio](https://img.shields.io/badge/⚛️%20Live%20Space-Vigyan--AI--Demo-blue?style=for-the-badge)](https://huggingface.co/spaces/shreyansh12183/Vigyan-AI-Demo)
+[![Hugging Face Hub](https://img.shields.io/badge/🤗%20Hugging%20Face-shreyansh12183-orange?style=for-the-badge)](https://huggingface.co/shreyansh12183)
+[![Public Sovereign Benchmark](https://img.shields.io/badge/🏛️%20GitHub-Vigyan%20Sovereign%20Benchmark-black?style=for-the-badge)](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)
 [![Kaggle Research](https://img.shields.io/badge/Kaggle-shreyansh00singh-20BEFF?style=for-the-badge)](https://www.kaggle.com/shreyansh00singh)
+[![BITS Pilani](https://img.shields.io/badge/BITS_Pilani-BS_in_AI_%26_Data_Science-red?style=for-the-badge)](https://www.bits-pilani.ac.in/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
-## ⚡ Executive Overview
+## ⚡ Executive Overview & Empirical Moat
 
-I design and train sovereign domain-specialized language models that achieve frontier-level accuracy on consumer edge hardware with zero synthetic contamination:
+I build sovereign, domain-specialized foundation architectures designed to run completely offline on local consumer workstations and edge hardware with zero data leakage:
 
-- **The 3B Parameter Breakthrough**: Using high-density **DARE-TIES Weight Fusion (0.75 density)** and targeted **DPO alignment**, our **Vigyan-3B-Quad-Master** achieved **69.0%** on 100 unseen graduate STEM problems—officially surpassing our earlier 7B model (**65.0%**) while occupying under **2 GB in RAM**.
-- **Deterministic Peer Evaluation**: 100% auditable via SymPy Computer Algebra System (CAS) and IEEE 1364 Verilog AST synthesizability checks (zero LLM-judge bias).
-- **Zero-Cost Sovereign Cloud Infrastructure**: Complete post-training recipes engineered on Kaggle Dual Tesla T4 GPUs and ephemeral AWS SageMaker Spot instances.
-- **Air-Gapped Offline Deployment**: Packaged in Q4_K_M GGUF format for 100% offline desktop execution (30–45 tok/s on standard CPU).
-
----
-
-## 🏛️ Sovereign Fleet Benchmark Matrix
-
-| Fleet Tier | Parameters | Base Scaffold | Exam Suite | Score | Binary Size | Primary Specialization |
-| :--- | :---: | :--- | :--- | :---: | :---: | :--- |
-| **Vigyan-1.5B** | 1.54B | `DeepSeek-R1-Distill-1.5B` | 100 Frontier STEM | **43.0%** | **1.11 GB** | Ultra-light edge scout, IoT, PhD Math (75.0%) |
-| **Vigyan-3B** 🚀 | 3.09B | `Qwen2.5-3B-Instruct` | 100 Frontier STEM | **69.0%** | **1.93 GB** | **Surpassed 7B!** RTL & EDA (85.0%), Pure Math (85.0%) |
-| **Vigyan-7B** | 7.01B | `OLMo-2-1124-7B` | 100 Frontier STEM | **65.0%** | **4.20 GB** | Sovereign Architect, Quantum Chemistry (65.0%) |
-| **Vigyan-32B Titan** | 32.5B | `OLMo-2-1124-32B` | GSM8K Arithmetic | **84.2%** | *Cloud / AWS* | Frontier Symbolic Proofs & High-Complexity RTL |
-
-> 🔍 **Open Verification**: Run `python reproduce_fleet_audit.py --model all` to verify all 100 test cases per model in < 2 seconds via the [Unified Benchmark Harness](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness).
+* **The Sovereign Scaling Trilogy (1.5B $\to$ 3B $\to$ 7B)**:
+  * **67.2% 0-Shot Intrinsic CoT**: Our flagship **Vigyan Gen-4 (7B)** achieved 67.2% overall accuracy across 500 brand-new, decontaminated frontier problems evaluated by our deterministic Chief Judge.
+  * **63.0% Synthesizable Silicon RTL**: Generates syntactically verified IEEE 1364 Verilog circuits (FSMs, ALUs, synchronous FIFOs, pipelined controllers) directly from natural language specifications without cloud dependencies.
+  * **100.0% Standardized STEM Logic**: Flawless 100/100 scientific reasoning saturation.
+* **Deterministic Chief Judge (No LLM Bias)**: Pioneered the elimination of subjective "LLM-as-a-Judge" grading by implementing deterministic evaluation via Python **SymPy CAS** (symbolic algebraic equivalence) and **IEEE 1364 Verilog AST** syntactical parsers.
+* **\$0 Cloud Post-Training Pipeline**: Engineered zero-cost, cloud-to-cloud training pipelines utilizing Kaggle Dual Tesla T4 GPUs with strict prompt loss masking (`label = -100`) and dynamic loss early stopping ($\text{loss} \le 0.48$).
+* **Academic & Institutional Alignment**:
+  * Enrolled scholar at **BITS Pilani** (Digital BS in AI & Data Science).
+  * Direct ecosystem engagement with **STPI Electropreneur Park**, **AIC-BHU**, and **PIEDS BITS Pilani**.
 
 ---
 
-## 🤗 Curated Hugging Face Hub Portfolios
+## 🏛️ Certified Sovereign Fleet Benchmark Matrix
 
-Explore curated model weights, interactive demos, and pre-training corpora on Hugging Face:
+Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluations (0-Shot Intrinsic CoT vs. 4-Shot In-Context Demonstrations):
 
-- 🏛️ [**Vigyan Sovereign STEM Fleet Collection**](https://hf.co/collections/shreyansh12183/vigyan-sovereign-stem-fleet) — The verified 4-tier foundation fleet: **1.5B Edge Scout**, **3B Workhorse (69.0% SOTA)**, **7B Architect**, and **32B Titan**.
-- 📚 [**Sovereign Pretraining Corpora Collection**](https://hf.co/collections/shreyansh12183/sovereign-stem-datasets-and-pretraining-corpora) — 1.5B+ curated tokens, including `shreyansh-1B-SLM-pretrain-stem-english` (420+ downloads) and `shreyansh-hinglish-english-stem-500k`.
-- ⚛️ [**Vigyan-AI-Demo Space**](https://huggingface.co/spaces/shreyansh12183/Vigyan-AI-Demo) — Interactive browser showcase for 3D CAD (`/cad3d`), semiconductor physics (`/semiconductor`), and orbital mechanics.
+| Model Tier | Base Scaffold | 0-Shot CoT | 4-Shot CoT | Silicon RTL & EDA (0-Shot) | PhD Pure Math | Standardized STEM |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Vigyan-1.5B** | `Qwen2.5-1.5B` | 27.2% | **50.4%** | 4.0% | 42.0% | 70.0% |
+| **Vigyan-3B** | `Qwen2.5-3B` | **56.4%** | **58.4%** | 51.0% | **78.0%** | 85.0% |
+| **Vigyan Gen-4 (7B)** 🚀 | `OLMo-3-7B-Instruct` | **67.2%** | 55.2% | **63.0%** | **87.0%** | **100.0%** 🎯 |
 
----
-
-## 🖥️ Flagship Product: Vigyan Pro Desktop (v2.8.0)
-
-**Vigyan Pro** is an air-gapped, 100% offline AI science & 3D engineering studio built for R&D labs, aerospace engineers, and STEM institutions:
-
-- **8 Native In-Chat Interactive Engines**: Live 3D CAD modeling, semiconductor band diagrams, orbital simulations, electronic schematics, and SymPy AST derivations.
-- **Smart GPU + CPU Hybrid Inference**: Automatic dynamic layer splitting balancing integrated/discrete GPUs and CPU threads with zero cloud dependency.
-- **Enterprise Air-Gapped Security**: Zero telemetry, zero external API keys, 100% private data sovereignty.
+> 📊 **Explore Full Research Whitepaper & Scorecards**: [shreyansh001boy-tech/vigyan-sovereign-benchmark](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)
 
 ---
 
-## 🛠️ 10+ Critical Industry Problems Solved by Vigyan AI & Vigyan Pro
+## 🔬 Featured Open-Research Repositories
 
-| # | Domain & Real-World Bottleneck | Vigyan Technical Solution | Real-World Impact & Deployment |
-| :---: | :--- | :--- | :--- |
-| **01** | **Air-Gapped Semiconductor IP Protection**<br/>*Foundries & chip designers cannot send RTL code to cloud LLMs due to IP leaks and export controls.* | Sovereign **Vigyan-3B RTL Specialist** generates synthesizable IEEE 1364 Verilog, CDC flip-flop synchronizers, and Gray converters **100% offline**. | Zero network egress; ASIC/FPGA teams generate verified HDL locally with no IP risk. |
-| **02** | **Static Timing Analysis (STA) Slack Errors**<br/>*Complex setup/hold timing violations require tedious manual slack calculations.* | Built-in STA mathematical solvers computing $T_{\text{comb\_max}}$ and hold margins with deterministic validation. | **85.0% pass rate** on silicon timing and clock-gating test suites. |
-| **03** | **LLM Hallucinations in Formal Mathematics**<br/>*Standard LLMs routinely hallucinate calculus limits, contour integrals, and ODE solutions.* | **Neuro-Symbolic SymPy AST Engine** that symbolically verifies algebraic equivalence (`sp.simplify(pred - truth) == 0`) before answering. | **85.0% PhD Pure Math accuracy** with certified zero false positives. |
-| **04** | **Disconnected CAD Workflows in Engineering**<br/>*Engineers waste hours switching between generative LLMs and external heavy CAD software.* | Native procedural **`/cad3d` engine** rendering parametric 3D mechanical assemblies and STL solids directly in conversational chat. | Instant mechanical prototyping inside Vigyan Pro Desktop without external licenses. |
-| **05** | **Prohibitive Aerospace Trajectory Licensing**<br/>*Satellite orbit planning often requires expensive proprietary astrodynamics packages.* | Embedded **60 FPS orbital mechanics simulator** calculating Hohmann transfer $\Delta v$, vis-viva velocities, and orbital perturbations. | **65.0% accuracy** on aerospace frontier mechanics; instant trajectory derivations. |
-| **06** | **Semiconductor Physics & Band Visualization**<br/>*Engineering students & fab technicians struggle to visualize carrier dynamics and Fermi levels.* | Interactive **`/semiconductor` engine** rendering live energy band bending, depletion widths, and MOSFET $I$-$V$ curves. | Deployed across academic labs for real-time solid-state electronics pedagogy. |
-| **07** | **Offline Biochemical Reaction Screening**<br/>*Biotech labs lack fast, private screening tools for Arrhenius kinetics and molecular structures.* | Local biomedical reasoning engine evaluating reaction rate constants, partition functions, and IUPAC SMILES representations. | **60.0% accuracy** in chemistry; zero cloud latency for private drug target research. |
-| **08** | **Bilingual Hinglish STEM Education Gap**<br/>*Tier-2/3 Indian university students learn in code-mixed Hinglish; western LLMs sound unnatural.* | Pretrained on **500k+ bilingual STEM instruction pairs** (`shreyansh-hinglish-english-stem-500k`) for natural contextual tutoring. | Fluent, culturally authentic technical explanations across physics, math, and coding. |
-| **09** | **Low-Power Edge & Microcontroller Robotics**<br/>*Robotics engineers cannot deploy heavy models on embedded ARM/Raspberry Pi boards.* | Sovereign **Vigyan-1.5B Edge Scout** (1.11 GB GGUF) running ultra-compact 40+ tok/s inference on 4GB edge compute with 75% PhD Math accuracy. | Lightweight edge autonomous navigation and symbolic calculations on edge microcontrollers. |
-| **10** | **\$50,000+ Prohibitive Cloud GPU Costs**<br/>*Small labs and deep-tech startups are priced out of sovereign model development.* | Engineered **Zero-Cost Cloud Post-Training Recipe** utilizing Kaggle Dual Tesla T4s with prompt loss masking and DARE-TIES fusion. | Trained our complete sovereign 4-tier fleet (1.5B, 3B, 7B, 32B) for **\$0.00 cloud spend**. |
-| **11** | **Low-Spec Hardware Freezes on 7B+ Models**<br/>*Standard 8GB–16GB laptops crash or throttle when running dense local foundation models.* | **Vigyan Pro Smart Governor** dynamically balancing layers between integrated/discrete GPUs and physical CPU threads. | Delivers **30–45 tok/s** smooth generation on standard consumer laptops. |
-| **12** | **Catastrophic Model Merge Degradation**<br/>*DARE-TIES merges stripped 1D QK-Norm weights in 32B models, crashing math from 70% to 3.4%.* | **768 KB 15th Shard QK-Norm re-injection** recovering self-attention equilibrium on AWS SageMaker. | Fully restored **84.2% GSM8K** accuracy with zero compute waste on Vigyan-32B Titan. |
+- 🏛️ [**vigyan-sovereign-benchmark**](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark) — Official public benchmark suite: 500 unseen questions, deterministic Chief Judge (SymPy CAS + Verilog AST), certified scorecards, and scaling whitepaper (Licensed under CC BY-NC-SA 4.0).
+- 📖 [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) — Technical documentation on SLM fine-tuning, prompt loss masking, and neuro-symbolic reasoning.
+- 🛠️ [**vigyan-industrial-agent-skills**](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) — Autonomous industrial agent skills and CAD/EDA automation tools.
+- ⚖️ [**vigyan-dpo-benchmark-harness**](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness) — Empirical evaluation harness and Chief Judge implementation.
 
 ---
 
-## 📜 Research Repositories & Whitepapers
+## 🖥️ Flagship Product: Vigyan Pro Desktop
 
-- 🏛️ [**vigyan-dpo-benchmark-harness**](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness) — Rigorous 100-Problem Empirical Benchmark & Deterministic Chief Judge Evaluation Harness.
-- 📖 [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) — 10-Chapter Technical Architecture on MoE upcycling, DARE-TIES fusion, and Neuro-Symbolic integration.
-- 🔬 [**vigyan-32b-benchmark-reports**](https://github.com/shreyansh001boy-tech/vigyan-32b-benchmark-reports) — Forensic Math Recovery Audits & AWS SageMaker CloudWatch telemetry logs.
+**Vigyan Pro** is an air-gapped, 100% offline scientific and engineering workstation designed for semiconductor design teams, defense R&D, and STEM researchers:
+
+* **Native In-Chat STEM Engines**: Direct procedural 3D CAD modeling, semiconductor band diagrams, orbital trajectory mechanics, and SymPy CAS derivations.
+* **Smart Hybrid Compute**: Automatic layer splitting between GPU VRAM and CPU system RAM.
+* **Absolute Air-Gapped Privacy**: Zero telemetry, zero cloud egress, 100% DPDP Act compliance.
 
 ---
 
+## 📜 Academic Attribution & Non-Commercial License
+
+All public research, evaluation datasets, and benchmarking scripts are released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+```bibtex
+@article{singh2026vigyan,
+  title={Vigyan Sovereign Trilogy: Empirical Scaling Laws and Deterministic Symbolic-AST Evaluation of Edge Small Language Models},
+  author={Singh, Shreyansh},
+  institution={Birla Institute of Technology and Science, Pilani (BITS Pilani)},
+  journal={Vigyan AI Open Research},
+  year={2026},
+  url={https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark}
+}
 ```
-Founder: Shreyansh Singh
-Email / Inquiries: Available via LinkedIn & ExperimentLab.in
-Platform: https://experimentlab.in
-```
+
+---
+
+## 📬 Contact & Institutional Inquiries
+
+* **Personal Email**: `shreyansh001boy.tech@gmail.com`
+* **Academic Email**: BITS Pilani institutional domain (`@pilani.bits-pilani.ac.in`)
+* **Hugging Face Hub**: [@shreyansh12183](https://huggingface.co/shreyansh12183)
+* **GitHub Profile**: [@shreyansh001boy-tech](https://github.com/shreyansh001boy-tech)
