@@ -1,29 +1,27 @@
 # Shreyansh Singh
 
-**Scholar-Engineer · Vigyan AI Research**  
-**Founder & Lead Architect @ [Vigyan AI](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)** · India  
-*Pioneering Sovereign Small Language Models (SLMs) and Deterministic Neuro-Symbolic Evaluation Engines for synthesizable Silicon EDA, PhD Mathematics, and Air-Gapped Edge Computing.*
+**Founder & AI Systems Architect @ [ExperimentLab](https://experimentlab.in)** · India  
+*Building **Vigyan AI** — Sovereign Small Language Models (SLMs) and Deterministic Neuro-Symbolic Evaluation Engines that never leave your servers.*
 
-[![Hugging Face Hub](https://img.shields.io/badge/🤗%20Hugging%20Face-shreyansh12183-orange?style=for-the-badge)](https://huggingface.co/shreyansh12183)
+[![Production Site: experimentlab.in](https://img.shields.io/badge/Production_Site-experimentlab.in-20BEFF?style=for-the-badge&logo=cloudflare)](https://experimentlab.in)
 [![Public Sovereign Benchmark](https://img.shields.io/badge/🏛️%20GitHub-Vigyan%20Sovereign%20Benchmark-black?style=for-the-badge)](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)
+[![Hugging Face Hub](https://img.shields.io/badge/🤗%20Hugging%20Face-shreyansh12183-orange?style=for-the-badge)](https://huggingface.co/shreyansh12183)
 [![Kaggle Research](https://img.shields.io/badge/Kaggle-shreyansh00singh-20BEFF?style=for-the-badge)](https://www.kaggle.com/shreyansh00singh)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
-## ⚡ Executive Overview & Empirical Moat
+## ⚡ Executive Overview & Sovereign Infrastructure
 
-I build sovereign, domain-specialized foundation architectures designed to run completely offline on local consumer workstations and edge hardware with zero data leakage:
+I architect sovereign, domain-specialized language models and air-gapped desktop workstations designed to run completely offline with zero marginal token cost and zero cloud data leakage:
 
 * **The Sovereign Scaling Trilogy (1.5B $\to$ 3B $\to$ 7B)**:
-  * **67.2% 0-Shot Intrinsic CoT**: Our flagship **Vigyan Gen-4 (7B)** achieved 67.2% overall accuracy across 500 brand-new, decontaminated frontier problems evaluated by our deterministic Chief Judge.
-  * **63.0% Synthesizable Silicon RTL**: Generates syntactically verified IEEE 1364 Verilog circuits (FSMs, ALUs, synchronous FIFOs, pipelined controllers) directly from natural language specifications without cloud dependencies.
+  * **67.2% 0-Shot Intrinsic CoT**: Our flagship **Vigyan Gen-4 (7B)** achieved **67.2%** overall accuracy across 500 brand-new, decontaminated frontier problems evaluated deterministically.
+  * **63.0% Synthesizable Silicon RTL**: Generates verified IEEE 1364 Verilog circuits (FSMs, ALUs, synchronous FIFOs, pipelined controllers) directly from specifications without cloud dependencies.
   * **100.0% Standardized STEM Logic**: Flawless 100/100 scientific reasoning saturation.
-* **Deterministic Chief Judge (No LLM Bias)**: Pioneered the elimination of subjective "LLM-as-a-Judge" grading by implementing deterministic evaluation via Python **SymPy CAS** (symbolic algebraic equivalence) and **IEEE 1364 Verilog AST** syntactical parsers.
-* **\$0 Cloud Post-Training Pipeline**: Engineered zero-cost, cloud-to-cloud training pipelines utilizing Kaggle Dual Tesla T4 GPUs with strict prompt loss masking (`label = -100`) and dynamic loss early stopping ($\text{loss} \le 0.48$).
-* **Academic & Institutional Alignment**:
-  * Enrolled scholar at **Vigyan AI** .
-  * Direct ecosystem engagement with **STPI Electropreneur Park**, **AIC-BHU**, and **PIEDS Vigyan AI**.
+* **Deterministic Chief Judge (No LLM Bias)**: Pioneered the complete elimination of subjective "LLM-as-a-Judge" grading by implementing deterministic evaluation via Python **SymPy CAS** (symbolic algebraic equivalence) and **IEEE 1364 Verilog AST** syntactical parsers.
+* **Zero-Cost Cloud Post-Training Pipeline**: Engineered zero-cost, cloud-to-cloud training pipelines utilizing Kaggle Dual Tesla T4 GPUs with strict prompt loss masking (`label = -100`) and dynamic loss early stopping ($\text{loss} \le 0.48$).
+* **Ecosystem Engagement**: Active deep-tech incubation and design partnerships with **STPI Electropreneur Park** and **AIC-BHU**.
 
 ---
 
@@ -38,6 +36,16 @@ Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluat
 | **Vigyan Gen-4 (7B)** 🚀 | `OLMo-3-7B-Instruct` | **67.2%** | 55.2% | **63.0%** | **87.0%** | **100.0%** 🎯 |
 
 > 📊 **Explore Full Research Whitepaper & Scorecards**: [shreyansh001boy-tech/vigyan-sovereign-benchmark](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark)
+
+---
+
+## 🏢 Enterprise Solutions: ExperimentLab ([experimentlab.in](https://experimentlab.in))
+
+**ExperimentLab** delivers air-gapped sovereign cognitive infrastructure for enterprises, defense labs, and semiconductor foundries:
+
+* **Your AI Never Leaves the Room**: Models fine-tuned on client documents and installed directly on on-premise hardware. Continues operating seamlessly with network cables unplugged.
+* **Zero Cloud Latency & Zero Telemetry**: Complete compliance with the Digital Personal Data Protection (DPDP) Act with ₹0 marginal token expenditure.
+* **Production Edge Architecture**: Live Cloudflare Pages and Workers edge routing with sub-5KB embeddable customer widgets.
 
 ---
 
@@ -56,7 +64,7 @@ Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluat
 
 * **Native In-Chat STEM Engines**: Direct procedural 3D CAD modeling, semiconductor band diagrams, orbital trajectory mechanics, and SymPy CAS derivations.
 * **Smart Hybrid Compute**: Automatic layer splitting between GPU VRAM and CPU system RAM.
-* **Absolute Air-Gapped Privacy**: Zero telemetry, zero cloud egress, 100% DPDP Act compliance.
+* **Absolute Air-Gapped Privacy**: Zero telemetry, zero cloud egress.
 
 ---
 
@@ -69,7 +77,7 @@ All public research, evaluation datasets, and benchmarking scripts are released 
   title={Vigyan Sovereign Trilogy: Empirical Scaling Laws and Deterministic Symbolic-AST Evaluation of Edge Small Language Models},
   author={Singh, Shreyansh},
   institution={Vigyan AI Open Research},
-  journal={Vigyan AI Open Research},
+  journal={Vigyan AI Research Publications},
   year={2026},
   url={https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark}
 }
@@ -77,7 +85,8 @@ All public research, evaluation datasets, and benchmarking scripts are released 
 
 ---
 
-## 📬 Contact & Institutional Inquiries
+## 📬 Contact & Inquiries
 
+* **Company Platform**: [https://experimentlab.in](https://experimentlab.in)
 * **Hugging Face Hub**: [@shreyansh12183](https://huggingface.co/shreyansh12183)
 * **GitHub Profile**: [@shreyansh001boy-tech](https://github.com/shreyansh001boy-tech)
