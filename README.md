@@ -9,7 +9,7 @@
 [![GitHub Org](https://img.shields.io/badge/GitHub_Org-Vigyan--workstation-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation)
 [![Hugging Face Org](https://img.shields.io/badge/Hugging_Face_Org-Experimentlab-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Workstation v1.0.0](https://img.shields.io/badge/Vigyan_Workstation-v1.0.0_Live-7c3aed?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
-[![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZcvQVd55X)
+[![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 </div>
@@ -95,7 +95,7 @@ Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluat
 ## 📬 Contact & Inquiries
 
 * **Company Platform:** [https://experimentlab.in](https://experimentlab.in)
-* **Discord Community:** [ExperimentLab • The Sovereign Guild](https://discord.gg/ZcvQVd55X)
+* **Discord Community:** [ExperimentLab • The Sovereign Guild](https://discord.com/invite/Jck3tD6mhf)
 * **GitHub Organization:** [@Vigyan-workstation](https://github.com/Vigyan-workstation)
 * **Hugging Face Organization:** [@Experimentlab](https://huggingface.co/Experimentlab)
 * **Founder Direct:** [contact@experimentlab.in](mailto:contact@experimentlab.in)
