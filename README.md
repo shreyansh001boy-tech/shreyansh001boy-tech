@@ -6,6 +6,7 @@
 <div align="left">
 
 [![Website: experimentlab.in](https://img.shields.io/badge/Enterprise_Site-experimentlab.in-2563eb?style=for-the-badge&logo=cloudflare&logoColor=white)](https://experimentlab.in)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-Strictly_Non--Commercial_(CC_BY--NC--SA_4.0)-red?style=for-the-badge&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Hugging Face Downloads](https://img.shields.io/badge/HF_Model_Downloads-5%2C000%2B-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
 [![GitHub Org](https://img.shields.io/badge/GitHub_Org-Vigyan--workstation-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation)
 [![Hugging Face Org](https://img.shields.io/badge/Hugging_Face_Org-Experimentlab-ff9900?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
@@ -112,9 +113,21 @@ If you utilize the Vigyan model fleet, benchmark harnesses, or whitepapers in yo
 
 ---
 
+## ⚖️ Intellectual Property & Strict Non-Commercial Licensing
+
+All open-source models, benchmark suites, pretraining datasets, research whitepapers, and software released across the Vigyan / ExperimentLab ecosystem are strictly governed by the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license and the **ExperimentLab Sovereign Community & Demilitarized License**:
+
+* **Academic, Educational & Personal Research Use Only**: Freely permitted for students, academic researchers, university coursework, self-hosting, and civilian scientific inquiry.
+* **Strictly Non-Commercial Prohibition**: You may not sell, monetize, host as a paid API/SaaS wrapper, bundle with commercial hardware, or use for commercial advantage without prior written enterprise authorization from ExperimentLab AI.
+* **Demilitarized Civilian STEM Restriction**: Strictly prohibited for military, defense, weapons research, autonomous combat, or surveillance systems.
+* **Commercial Enterprise Licensing**: For commercial licensing, enterprise deployment, or institutional partnerships, contact [contact@experimentlab.in](mailto:contact@experimentlab.in).
+
+---
+
 ## 📬 Contact & Inquiries
 
 * **Enterprise & Research:** [contact@experimentlab.in](mailto:contact@experimentlab.in) · [experimentlab.in](https://experimentlab.in)
 * **Discord Guild:** [ExperimentLab • The Sovereign Guild](https://discord.com/invite/Jck3tD6mhf)
 * **GitHub Guild:** [@Vigyan-workstation](https://github.com/Vigyan-workstation)
 * **Hugging Face Hub:** [@Experimentlab](https://huggingface.co/Experimentlab)
+
