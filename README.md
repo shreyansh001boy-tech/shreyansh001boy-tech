@@ -1,16 +1,16 @@
 # Shreyansh Singh
 
-**Founder & Chief Architect @ [ExperimentLab](https://experimentlab.in)** · India  
-*Architecting **Vigyan AI** — Sovereign Small Language Models (SLMs), 1.58-Bit BitNet Architectures, and Air-Gapped Physical Engineering Workstations that never leave your hardware.*
+**Founder & Chief AI Systems Architect @ [ExperimentLab](https://experimentlab.in)** · India  
+*Architecting **Vigyan AI** — Sovereign Small Language Models (SLMs), 1.58-Bit Ternary BitNet Architectures, and Air-Gapped Physical Engineering Workstations that never leave your hardware.*
 
 <div align="left">
 
-[![Website: experimentlab.in](https://img.shields.io/badge/Production_Site-experimentlab.in-2563eb?style=for-the-badge&logo=cloudflare&logoColor=white)](https://experimentlab.in)
+[![Website: experimentlab.in](https://img.shields.io/badge/Enterprise_Site-experimentlab.in-2563eb?style=for-the-badge&logo=cloudflare&logoColor=white)](https://experimentlab.in)
+[![Hugging Face Downloads](https://img.shields.io/badge/HF_Model_Downloads-5%2C000%2B-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
 [![GitHub Org](https://img.shields.io/badge/GitHub_Org-Vigyan--workstation-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation)
-[![Hugging Face Org](https://img.shields.io/badge/Hugging_Face_Org-Experimentlab-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
-[![Workstation v1.0.0](https://img.shields.io/badge/Vigyan_Workstation-v1.0.0_Live-7c3aed?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
+[![Hugging Face Org](https://img.shields.io/badge/Hugging_Face_Org-Experimentlab-ff9900?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
+[![Workstation v1.0.0](https://img.shields.io/badge/Community_Desktop-v1.0.0_Live-7c3aed?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
 [![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 </div>
 
@@ -18,32 +18,34 @@
 
 ---
 
-## 🏛️ Sovereign Engineering Organizations
+## 🏛️ Institutional Architecture & Ecosystem
 
-I architect and lead two open-source deep-tech initiatives:
+We operate under the **Deep-Tech Research Lab Model**, bridging fundamental AI systems research with sovereign physical execution:
 
-| Organization | Mission & Focus | Primary Repositories |
+| Entity | Role & Scope | Hub / Repositories |
 | :--- | :--- | :--- |
-| **[Vigyan-workstation](https://github.com/Vigyan-workstation)** | **The Sovereign Engineering Guild**: 100% offline desktop engineering studio pairing local SLMs with deterministic SymPy CAS calculus, WaveDrom digital timing, and 6-DoF kinematics. | [`vigyan-workstation`](https://github.com/Vigyan-workstation/vigyan-workstation) (v1.0.0 Community Edition) |
-| **[Experimentlab (HF)](https://huggingface.co/Experimentlab)** | **Sovereign Foundation Model Hub**: Sparse Mixture of Experts (MoE), ternary 1.58-bit BitNet quantization, and doctoral-grade STEM models. | [`Vigyan-1.5B-4x-MoE`](https://huggingface.co/Experimentlab/Vigyan-1.5B-4x-MoE), [`vigyan-3b-1.58bit-qat`](https://huggingface.co/Experimentlab/vigyan-3b-1.58bit-qat), [`olmo2-7b-silicon-rtl-eda`](https://huggingface.co/Experimentlab/olmo2-7b-silicon-rtl-eda) |
+| **[ExperimentLab](https://experimentlab.in)** | **Parent Deep-Tech AI Company**: Enterprise research, foundation model training pipelines, and custom sovereign SLMs. | [`@Experimentlab` on Hugging Face](https://huggingface.co/Experimentlab) |
+| **[Vigyan Workstation](https://github.com/Vigyan-workstation)** | **The Sovereign Engineering Guild**: Open-source, air-gapped desktop engineering studio for robotics, CAD, and digital timing. | [`vigyan-workstation`](https://github.com/Vigyan-workstation/vigyan-workstation) (v1.0.0 Community Edition) |
+| **Shreyansh Singh** | **Founder & Chief Architect**: Creator of the Vigyan Model Fleet, 500-question empirical benchmarks, and sovereign whitepapers. | [`@shreyansh001boy-tech`](https://github.com/shreyansh001boy-tech) · [`@shreyansh12183`](https://huggingface.co/shreyansh12183) |
 
 ---
 
-## ⚡ Executive Overview & Architecture
+## 🔬 Flagship Open-Research Repositories
 
-I engineer sovereign, domain-specialized language models and air-gapped desktop workstations designed to run completely offline with zero marginal token cost and zero cloud data leakage:
+Explore our core peer-auditable research repositories, empirical evaluation harnesses, and technical chronicles:
 
-* **The Sovereign Scaling Trilogy (1.5B $\to$ 3B $\to$ 7B)**:
-  * **67.2% 0-Shot Intrinsic CoT**: Our flagship **Vigyan Gen-4 (7B)** achieved **67.2%** overall accuracy across 500 brand-new, decontaminated frontier problems evaluated deterministically.
-  * **63.0% Synthesizable Silicon RTL**: Generates verified IEEE 1364 Verilog circuits (FSMs, ALUs, synchronous FIFOs, pipelined controllers) directly from specifications without cloud dependencies.
-  * **100.0% Standardized STEM Logic**: Flawless scientific reasoning saturation.
-* **Deterministic Chief Judge (No LLM Bias)**: Complete elimination of subjective "LLM-as-a-Judge" grading by implementing deterministic evaluation via Python **SymPy CAS** (symbolic algebraic equivalence) and **IEEE 1364 Verilog AST** syntactical parsers.
-* **1.58-Bit BitNet Quantization**: Quantization-Aware Training (QAT) {-1, 0, +1} ternary weights eliminating matrix multiplication for high-efficiency edge execution.
-* **Ecosystem Engagement**: Deep-tech incubation and design partnerships with **STPI Electropreneur Park** and **AIC-BHU**.
+| Flagship Repository | Domain & Architecture | Key Achievement |
+| :--- | :--- | :--- |
+| 📊 [**vigyan-sovereign-benchmark**](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark) | **500-Question Empirical STEM Benchmark** | Deterministic SymPy CAS & Verilog AST Chief Judge (zero LLM judge bias). |
+| 📖 [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) | **19-Chapter Technical Whitepapers** | Comprehensive chronicles on SFT loss masking, MoE routing, and Physical AI. |
+| 🛠️ [**vigyan-industrial-agent-skills**](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) | **Industrial Agent Toolkits** | Sovereign skills for Aerospace, Biomedical, RTL/EDA, and Control Systems. |
+| ⚖️ [**vigyan-dpo-benchmark-harness**](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness) | **100-Problem Fleet Evaluation Harness** | CLI evaluator executing instant deterministic validation across 1.5B–32B fleet. |
+| 🧠 [**vigyan-stem-eval-showcase**](https://github.com/shreyansh001boy-tech/vigyan-stem-eval-showcase) | **Neuro-Symbolic Hybrid Architecture** | SymPy AST Engine + KùzuDB C++ GraphRAG evaluation benchmark. |
+| ⚡ [**vigyan-7b-demo**](https://github.com/shreyansh001boy-tech/vigyan-7b-demo) | **1-Click Google Colab Interactive Demos** | Zero-setup notebooks for deploying Vigyan 7B and 2B models on free cloud GPUs. |
 
 ---
 
-## 🏛️ Certified Sovereign Fleet Benchmark Matrix
+## ⚡ Certified Sovereign Fleet Benchmark Matrix
 
 Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluations (0-Shot Intrinsic CoT vs. 4-Shot In-Context Demonstrations):
 
@@ -57,27 +59,45 @@ Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluat
 
 ---
 
-## 🖥️ Flagship Product: Vigyan Pro Desktop
+## 🌐 Public Model Fleet & Datasets (5,000+ Downloads)
 
-**[Vigyan Pro](https://experimentlab.in/desktop.html)** is an air-gapped, 100% offline scientific and engineering workstation designed for robotics, embedded systems, semiconductor design, and mathematical research:
+Our open-weight models and foundational datasets are hosted publicly across [**@Experimentlab**](https://huggingface.co/Experimentlab) and [**@shreyansh12183**](https://huggingface.co/shreyansh12183):
 
-* **Native In-Chat STEM Studios**: 6-DoF forward/inverse kinematics, WaveDrom digital logic timing diagrams, KiCad PCB netlist extraction, and SymPy CAS symbolic calculus.
-* **Smart Hybrid Compute**: Automatic layer splitting between GPU VRAM and CPU system RAM.
-* **Absolute Air-Gapped Privacy**: Zero telemetry, zero cloud egress. Unplug your network cable and it keeps calculating.
+1. **Frontier STEM & Dense SLMs**:
+   - [`Vigyan-AI-32B`](https://huggingface.co/shreyansh12183/Vigyan-AI-32B) & [`Vigyan-AI-32B-Titan-v1`](https://huggingface.co/shreyansh12183/Vigyan-AI-32B-Titan-v1)
+   - [`Vigyan-7B-STEM-Instruct-v1`](https://huggingface.co/shreyansh12183/Vigyan-7B-STEM-Instruct-v1) & [`Shreyansh-STEM-AI-7B-Final`](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-7B-Final)
+   - [`Shreyansh-STEM-AI-2B-v3`](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-2B-v3) *(1,195+ downloads)*
+2. **Advanced Architectures (MoE, 1.58-Bit BitNet, GRPO)**:
+   - [`Vigyan-1.5B-4x-MoE`](https://huggingface.co/shreyansh12183/Vigyan-1.5B-4x-MoE) *(1,669+ downloads · Sparse Top-1 Routing)*
+   - [`Vigyan-3B-4x-MoE`](https://huggingface.co/shreyansh12183/Vigyan-3B-4x-MoE) *(704+ downloads)*
+   - [`vigyan-3b-1.58bit-qat`](https://huggingface.co/shreyansh12183/vigyan-3b-1.58bit-qat) *(1.58-bit Ternary BitNet {-1, 0, +1} QAT model)*
+   - [`vigyan-2b-reasoning-grpo`](https://huggingface.co/shreyansh12183/vigyan-2b-reasoning-grpo) *(GRPO Test-Time Reasoning)*
+   - [`vigyan-olmoe-1b-7b-masterpiece-adapter`](https://huggingface.co/shreyansh12183/vigyan-olmoe-1b-7b-masterpiece-adapter)
+3. **Domain-Specialized Intelligence**:
+   - [`olmo2-7b-silicon-rtl-eda`](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) *(Semiconductor Verilog & EDA)*
+   - [`olmo2-7b-phd-pure-math`](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) *(PhD Pure Mathematics)*
+   - [`olmo2-7b-biomed-chem`](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) *(Biomedical Thermodynamics & Chemistry)*
+   - [`Vidhi-AI-Instruct`](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) & [`vidhi-ai-1.5b-sovereign-masterpiece`](https://huggingface.co/shreyansh12183/vidhi-ai-1.5b-sovereign-masterpiece) *(Indian Legal AI)*
+4. **Foundational Pretraining Corpora**:
+   - [`shreyansh-1B-SLM-pretrain-stem-english`](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english) *(1 Billion Token Corpus)*
+   - [`shreyansh-hinglish-english-stem-500k`](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k) *(500k Bilingual STEM Dataset)*
+   - [`vigyan-ai-research-papers`](https://huggingface.co/datasets/shreyansh12183/vigyan-ai-research-papers)
 
 ---
 
-## 🔬 Featured Open-Research Repositories
+## 🖥️ Community Flagship: Vigyan Workstation
 
-- 🏛️ [**vigyan-workstation/vigyan-workstation**](https://github.com/Vigyan-workstation/vigyan-workstation) — Official community desktop workstation repository (Release v1.0.0).
-- 📊 [**vigyan-sovereign-benchmark**](https://github.com/shreyansh001boy-tech/vigyan-sovereign-benchmark) — 500-question frontier benchmark suite, SymPy CAS Chief Judge, and scaling whitepaper.
-- 📖 [**vigyan-ai-journey-docs**](https://github.com/shreyansh001boy-tech/vigyan-ai-journey-docs) — Technical documentation on SLM fine-tuning, prompt loss masking, and neuro-symbolic reasoning.
-- 🛠️ [**vigyan-industrial-agent-skills**](https://github.com/shreyansh001boy-tech/vigyan-industrial-agent-skills) — Autonomous industrial agent skills and CAD/EDA automation tools.
-- ⚖️ [**vigyan-dpo-benchmark-harness**](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness) — Empirical evaluation harness and Chief Judge implementation.
+**[Vigyan Workstation](https://github.com/Vigyan-workstation/vigyan-workstation)** is our 100% offline, air-gapped engineering desktop workstation:
+
+* **Civilian STEM Charter**: 100% free and open for engineering students, researchers, makers, and physical builders.
+* **4 In-Chat Studios**: 6-DoF kinematics turntable, WaveDrom digital bus waveforms, KiCad PCB netlists, and SymPy CAS calculus.
+* **Zero Telemetry**: Unplug your network cable and your engineering calculations continue uninterrupted.
 
 ---
 
 ## 📜 Academic Attribution & Citation
+
+If you utilize the Vigyan model fleet, benchmark harnesses, or whitepapers in your academic research, please cite:
 
 ```bibtex
 @article{singh2026vigyan,
@@ -94,8 +114,7 @@ Certified on the **500-Question Sovereign Benchmark Suite** across 1,000 evaluat
 
 ## 📬 Contact & Inquiries
 
-* **Company Platform:** [https://experimentlab.in](https://experimentlab.in)
-* **Discord Community:** [ExperimentLab • The Sovereign Guild](https://discord.com/invite/Jck3tD6mhf)
-* **GitHub Organization:** [@Vigyan-workstation](https://github.com/Vigyan-workstation)
-* **Hugging Face Organization:** [@Experimentlab](https://huggingface.co/Experimentlab)
-* **Founder Direct:** [contact@experimentlab.in](mailto:contact@experimentlab.in)
+* **Enterprise & Research:** [contact@experimentlab.in](mailto:contact@experimentlab.in) · [experimentlab.in](https://experimentlab.in)
+* **Discord Guild:** [ExperimentLab • The Sovereign Guild](https://discord.com/invite/Jck3tD6mhf)
+* **GitHub Guild:** [@Vigyan-workstation](https://github.com/Vigyan-workstation)
+* **Hugging Face Hub:** [@Experimentlab](https://huggingface.co/Experimentlab)
