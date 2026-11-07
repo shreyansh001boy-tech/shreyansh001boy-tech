@@ -8,6 +8,7 @@
 [![Flagship Workstation](https://img.shields.io/badge/Flagship_Repository-vigyan--pro_v4.0.0-18181b?style=flat&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-pro)
 [![Hugging Face Org](https://img.shields.io/badge/Hugging_Face-Experimentlab-ffd21e?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Personal Models](https://img.shields.io/badge/Models-47_Published-00ffcc?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
+[![Back Research](https://img.shields.io/badge/Back_Research-Buy_Me_A_Chai-d97706?style=flat)](https://buymeachai.in/shreyansh001boy)
 [![Discord](https://img.shields.io/badge/Discord-Experimentlab_Community-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![License](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-blue.svg?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/blob/main/LICENSE)
 
@@ -90,6 +91,12 @@ Each demo launches an interactive Gradio session on a free Google Colab Tesla T4
 * [**shreyansh-1B-SLM-pretrain-stem-english**](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english): 1 Billion token pretraining corpus balanced for cold-start STEM intelligence.
 * [**shreyansh-hinglish-english-stem-500k**](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k): 500,000 sample bilingual Hinglish-English dataset for engineering education.
 * [**vigyan-ai-research-papers**](https://huggingface.co/datasets/Experimentlab/vigyan-ai-research-papers): Technical literature and empirical benchmarks.
+
+---
+
+## Back Sovereign Open-Source Research
+
+Independent foundation model pretraining, mathematical AST verification, and edge SLM optimization require continuous compute. If our open-weight models, datasets, or offline workstations support your work or research, you can support our independent civilian STEM lab via [Buy Me A Chai](https://buymeachai.in/shreyansh001boy).
 
 ---
 
