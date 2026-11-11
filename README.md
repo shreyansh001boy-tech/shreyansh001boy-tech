@@ -62,7 +62,6 @@ We engineer extreme low-bit ternary foundation architectures where weights are r
   - [`shreyansh12183/vigyan-125m-sota-math`](https://huggingface.co/shreyansh12183/vigyan-125m-sota-math) — Certified mathematical reasoning canary with formal scorecards.
   - [`shreyansh12183/vigyan-125m-agentic-tool`](https://huggingface.co/shreyansh12183/vigyan-125m-agentic-tool) — Atomic tool invocation canary for SymPy CAS integration.
   - [`shreyansh12183/vigyan-125m-distilled`](https://huggingface.co/shreyansh12183/vigyan-125m-distilled) — Stage 1 and Stage 2 R1 distillation checkpoints.
-  - [`shreyansh12183/vigyan-indic-stem-tokenizer`](https://huggingface.co/shreyansh12183/vigyan-indic-stem-tokenizer) — Custom BPE tokenizer tailored for Indian STEM literature.
 
 ---
 
@@ -171,11 +170,9 @@ Each demo launches an interactive Gradio session on a free Google Colab Tesla T4
 
 ---
 
-## Foundation Datasets on Hugging Face
+## Proprietary Pretraining Corpora & Alignment Moat
 
-* [**shreyansh-1B-SLM-pretrain-stem-english**](https://huggingface.co/datasets/shreyansh12183/shreyansh-1B-SLM-pretrain-stem-english): 1 Billion token pretraining corpus balanced for cold-start STEM intelligence.
-* [**shreyansh-hinglish-english-stem-500k**](https://huggingface.co/datasets/shreyansh12183/shreyansh-hinglish-english-stem-500k): 500,000 sample bilingual Hinglish-English dataset for engineering education.
-* [**vigyan-ai-research-papers**](https://huggingface.co/datasets/Experimentlab/vigyan-ai-research-papers): Technical literature and empirical benchmarks.
+In strict accordance with our sovereign commercial security standards, all **23 foundation pretraining datasets, packed binary tokens, and DPO preference alignment corpora** (including `vigyan-1b-pretrain-packed-4b`, `vidhi-3g-multimodal-sft`, `vigyan-indic-stem-corpus`, and `vigyan-gen5-frontier-8b-corpus`) are kept **100% private and air-gapped**.
 
 ---
 
