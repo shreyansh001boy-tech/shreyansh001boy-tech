@@ -78,10 +78,13 @@ Technical engineering workflows demand visual intelligence to inspect physical b
 
 ---
 
-## 🧬 Pillar 3: Clinical & Biophysics Deep Reasoning (DeepSeek-R1 14B & 32B Titan)
+## 🧬 Pillar 3: Frontier STEM & Clinical Deep Reasoning (Quad-Master 3B & 1.5B, R1-14B, 32B Titan)
 
 To bridge the gap between statistical LLMs and rigorous scientific truth, we integrate deep chain-of-thought distillation with deterministic symbolic solvers:
 
+- **Flagship Quad-Master Workstation Engines**:
+  - [`shreyansh12183/vigyan-3b-quad-master`](https://huggingface.co/shreyansh12183/vigyan-3b-quad-master) — 3B flagship Small Language Model fused via DARE-TIES across 4 sovereign STEM specialists (85.0% RTL/EDA, 85.0% PhD Math, 57.5% GSM8K). Runs in **1.39 GB IQ3_M GGUF** and outscores 7B models on reasoning.
+  - [`shreyansh12183/vigyan-1.5b-quad-master`](https://huggingface.co/shreyansh12183/vigyan-1.5b-quad-master) — Ultra-lightweight reasoning scout on `DeepSeek-R1-Distill-1.5B` delivering **75.0% on PhD Pure Mathematics** in a **1.11 GB Q4_K_M GGUF** (< 1.2 GB RAM).
 - **DeepSeek-R1 14B Clinical Suite**:
   - [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-sft`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-sft) — Supervised Fine-Tuning for medical pathology, pharmacology, and biophysics.
   - [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-dpo`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-dpo) — Direct Preference Optimization eliminating clinical reasoning shortcuts.
@@ -124,13 +127,13 @@ The flagship physical engineering workstation is developed under our sovereign o
 
 | Fleet Tier | Parameters | Base Scaffold | Exam Suite | Score / Metric | Binary Size | Primary Specialization |
 | :--- | :---: | :--- | :--- | :---: | :---: | :--- |
-| **Vigyan-125M** ⚡ | 125M | `Native BitNet b1.58 (Pretrained from Scratch)` | Atomic Math & Tools | **Certified STE** | **~50 MB** | 1.58-bit ternary edge canary, microcontrollers |
-| **Vigyan-1.5B** | 1.54B | `DeepSeek-R1-Distill-1.5B` | 100 Frontier STEM | **43.0%** | **1.11 GB** | Ultra-light edge scout, IoT, PhD Math (75.0%) |
-| **Vigyan-3B** 🚀 | 3.09B | `Qwen2.5-3B-Instruct` | 100 Frontier STEM | **69.0%** | **1.39 GB (IQ3_M)** | **Flagship Quad-Master:** RTL & EDA (85.0%), Math (85.0%) |
-| **Vigyan-VL-4B** 👁️ | 4.10B | `Qwen3-VL-4B-Instruct` | Technical Vision | **Zero-Shot OCR** | **263 MB (LoRA)** | Schematics, PCB netlists, CAD drawings, Radiology |
-| **Vigyan-7B** | 7.01B | `OLMo-2-1124-7B` | 100 Frontier STEM | **65.0%** | **3.31 GB (IQ3_M)** | Sovereign Architect, Quantum Chemistry |
-| **Vigyan-R1-14B** 🧬 | 14.7B | `DeepSeek-R1-Qwen-14B` | Clinical & Biophysics | **R1 Distill + DPO** | **6.60 GB (IQ3_M)** | Air-gapped medical due diligence, drug discovery |
-| **Vigyan-32B Titan** | 32.5B | `Olmo-3.1-32B-Instruct` | GSM8K Arithmetic | **84.2%** | *Cloud / AWS* | Frontier Symbolic Proofs & High-Complexity ASIC RTL |
+| [`shreyansh12183/vigyan-125m-158bit-canary`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-canary) ⚡ | 125M | `Native BitNet b1.58 (Pretrained from Scratch)` | Atomic Math & Tools | **Certified STE** | **~50 MB** | 1.58-bit ternary edge canary, microcontrollers |
+| [`shreyansh12183/vigyan-1.5b-quad-master`](https://huggingface.co/shreyansh12183/vigyan-1.5b-quad-master) | 1.54B | `DeepSeek-R1-Distill-1.5B` | 100 Frontier STEM | **43.0%** | **1.11 GB** | Ultra-light edge scout, IoT, PhD Math (75.0%) |
+| [`shreyansh12183/vigyan-3b-quad-master`](https://huggingface.co/shreyansh12183/vigyan-3b-quad-master) 🚀 | 3.09B | `Qwen2.5-3B-Instruct` | 100 Frontier STEM | **69.0%** | **1.39 GB (IQ3_M)** | **Flagship Quad-Master:** RTL & EDA (85.0%), Math (85.0%) |
+| [`shreyansh12183/vigyan-vl-4b-instruct`](https://huggingface.co/shreyansh12183/vigyan-vl-4b-instruct) 👁️ | 4.10B | `Qwen3-VL-4B-Instruct` | Technical Vision | **Zero-Shot OCR** | **263 MB (LoRA)** | Schematics, PCB netlists, CAD drawings, Radiology |
+| [`shreyansh12183/vigyan-olmo2-7b-quad-master`](https://huggingface.co/shreyansh12183/vigyan-olmo2-7b-quad-master) | 7.01B | `OLMo-2-1124-7B` | 100 Frontier STEM | **65.0%** | **3.31 GB (IQ3_M)** | Sovereign Architect, Quantum Chemistry |
+| [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-gguf`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-gguf) 🧬 | 14.7B | `DeepSeek-R1-Qwen-14B` | Clinical & Biophysics | **R1 Distill + DPO** | **6.60 GB (IQ3_M)** | Air-gapped medical due diligence, drug discovery |
+| [`shreyansh12183/vigyan-gen4-32b-sft-adapter`](https://huggingface.co/shreyansh12183/vigyan-gen4-32b-sft-adapter) | 32.5B | `Olmo-3.1-32B-Instruct` | GSM8K Arithmetic | **84.2%** | *Cloud / AWS* | Frontier Symbolic Proofs & High-Complexity ASIC RTL |
 
 > 🔍 **Open Verification**: Run `python reproduce_fleet_audit.py --model all` to verify all 100 test cases per model in < 2 seconds via the [Unified Benchmark Harness](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness).
 
