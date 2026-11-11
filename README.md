@@ -63,5 +63,10 @@
 ---
 
 <div align="center">
-  <sub>Developed by <a href="https://experimentlab.in">ExperimentLab AI</a> · Governed by the PolyForm Noncommercial License 1.0.0</sub>
+
+<img src="https://github-readme-stats.vercel.app/api?username=shreyansh001boy-tech&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=a1a1aa&icon_color=00ffcc" height="150" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyansh001boy-tech&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=a1a1aa" height="150" alt="Top Languages" />
+
+<br/>
+<sub>Developed by <a href="https://experimentlab.in">ExperimentLab AI</a> · Governed by the PolyForm Noncommercial License 1.0.0</sub>
 </div>
