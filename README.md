@@ -53,10 +53,11 @@ My research addresses the fundamental failure modes of cloud AI: telemetry data 
 
 We engineer extreme low-bit ternary foundation architectures where weights are restricted to $\\{-1, 0, +1\\}$, replacing power-hungry matrix multiplications with energy-efficient integer addition:
 
+- **Pretrained from Scratch from Token Zero**: Cold-start foundation pretraining initialized from scratch with random weights (NOT an adaptation, fine-tune, or distillation of Llama or any external model) using BitNet straight-through estimators (STE).
 - **Ultra-Low Memory Execution**: The entire 125M ternary model runs in **~40–60 MB RAM**, enabling high-speed deterministic inference on microcontrollers, Raspberry Pis, Rockchip NPUs, and standard laptop CPUs.
 - **Kaggle Cloud TPU v3-8 Pretraining**: Cold-start pretraining recipes engineered on Google Cloud TPUs utilizing non-blocking PJRT checkpointing and strict static shape compilation.
 - **Open-Access Model Suite**:
-  - [`shreyansh12183/vigyan-125m-158bit-canary`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-canary) — Official ternary BitNet Llama base model.
+  - [`shreyansh12183/vigyan-125m-158bit-canary`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-canary) — Native 1.58-bit ternary BitNet foundation model (pretrained from token zero scratch).
   - [`shreyansh12183/vigyan-125m-158bit-gguf`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-gguf) — Complete quantization suite (`iq1_s`, `iq2_xxs`, `q2_k`, `q4_k_m`, `fp16`).
   - [`shreyansh12183/vigyan-125m-sota-math`](https://huggingface.co/shreyansh12183/vigyan-125m-sota-math) — Certified mathematical reasoning canary with formal scorecards.
   - [`shreyansh12183/vigyan-125m-agentic-tool`](https://huggingface.co/shreyansh12183/vigyan-125m-agentic-tool) — Atomic tool invocation canary for SymPy CAS integration.
@@ -123,7 +124,7 @@ The flagship physical engineering workstation is developed under our sovereign o
 
 | Fleet Tier | Parameters | Base Scaffold | Exam Suite | Score / Metric | Binary Size | Primary Specialization |
 | :--- | :---: | :--- | :--- | :---: | :---: | :--- |
-| **Vigyan-125M** ⚡ | 125M | `Llama / BitNet b1.58` | Atomic Math & Tools | **Certified STE** | **~50 MB** | 1.58-bit ternary edge canary, microcontrollers |
+| **Vigyan-125M** ⚡ | 125M | `Native BitNet b1.58 (Pretrained from Scratch)` | Atomic Math & Tools | **Certified STE** | **~50 MB** | 1.58-bit ternary edge canary, microcontrollers |
 | **Vigyan-1.5B** | 1.54B | `DeepSeek-R1-Distill-1.5B` | 100 Frontier STEM | **43.0%** | **1.11 GB** | Ultra-light edge scout, IoT, PhD Math (75.0%) |
 | **Vigyan-3B** 🚀 | 3.09B | `Qwen2.5-3B-Instruct` | 100 Frontier STEM | **69.0%** | **1.39 GB (IQ3_M)** | **Flagship Quad-Master:** RTL & EDA (85.0%), Math (85.0%) |
 | **Vigyan-VL-4B** 👁️ | 4.10B | `Qwen3-VL-4B-Instruct` | Technical Vision | **Zero-Shot OCR** | **263 MB (LoRA)** | Schematics, PCB netlists, CAD drawings, Radiology |
