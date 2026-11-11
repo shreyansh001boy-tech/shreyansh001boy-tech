@@ -5,52 +5,133 @@
 
 [![Website](https://img.shields.io/badge/Website-experimentlab.in-000000?style=flat&logo=firefox&logoColor=white)](https://experimentlab.in)
 [![GitHub Org](https://img.shields.io/badge/GitHub_Org-Vigyan--workstation-000000?style=flat&logo=github&logoColor=white)](https://github.com/Vigyan-workstation)
-[![Flagship Workstation](https://img.shields.io/badge/Flagship_Repository-vigyan--pro_v4.0.0-18181b?style=flat&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-pro)
+[![Flagship Workstation](https://img.shields.io/badge/Flagship_Workstation-Vigyan_Pro_v4.1.0-18181b?style=flat&logo=linux&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-pro)
 [![Hugging Face Org](https://img.shields.io/badge/Hugging_Face-Experimentlab-ffd21e?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
-[![Personal Models](https://img.shields.io/badge/Models-47_Published-00ffcc?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
+[![Personal Models](https://img.shields.io/badge/HF_Fleet-47_Published-00ffcc?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/shreyansh12183)
+[![Kaggle Research](https://img.shields.io/badge/Kaggle-shreyansh00singh-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/shreyansh00singh)
 [![Back Research](https://img.shields.io/badge/Back_Research-Buy_Me_A_Chai-d97706?style=flat)](https://buymeachai.in/shreyansh001boy)
 [![Discord](https://img.shields.io/badge/Discord-Experimentlab_Community-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![License](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-blue.svg?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/blob/main/LICENSE)
 
 <p align="center">
-  <b>Architecting sovereign Small Language Models (SLMs), ternary 1.58-bit BitNet models, and air-gapped physical engineering workstations that run 100% locally on existing client hardware.</b>
+  <b>Architecting sovereign Small Language Models (SLMs), ternary 1.58-bit BitNet models, multimodal engineering vision, and air-gapped physical engineering workstations that run 100% locally on existing client hardware.</b>
 </p>
 
 </div>
 
 ---
 
-## Executive Overview
+## Executive Overview & Research Pillars
 
-I design, train, and deploy sovereign foundation models and offline engineering environments for physical engineers, semiconductor designers, mathematicians, and autonomous coding agents.
+I design, train, and deploy sovereign foundation models and offline engineering environments for physical engineers, semiconductor designers, clinical researchers, and autonomous coding agents.
 
 My research addresses the fundamental failure modes of cloud AI: telemetry data leakage, recurring token costs, and probabilistic mathematical hallucination. By pairing lightweight, domain-adapted SLMs with an in-process, sandboxed Computer Algebra System (SymPy CAS), our systems deliver deterministic mathematical and physical accuracy with zero cloud round-trips.
 
-* **47 Published Models & Adapters**: Spanning semiconductor RTL design, pure mathematics, orbital mechanics, biochemistry, and Indian statutory law.
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                           THE 4 SOVEREIGN RESEARCH PILLARS                       │
+├──────────────────────────┬────────────────────────────┬──────────────────────────┤
+│ 1. 1.58-Bit Ternary BitNet│ 2. Multimodal Engineering  │ 3. Deep Clinical & STEM  │
+│ • Straight-Through Estim.│ • Qwen3-VL 4B Vision       │ • DeepSeek-R1 14B Health │
+│ • 125M Canary Fleet      │ • Schematics & CAD OCR     │ • Olmo-3.1 32B Titan     │
+│ • GGUF IQ1_S to Q4_K_M   │ • Micro-footprint LoRA     │ • SymPy CAS Grounding    │
+├──────────────────────────┴────────────────────────────┴──────────────────────────┤
+│ 4. Sovereign Desktop Workstation (Vigyan Pro v4.1.0)                             │
+│ • 100% Offline Physical Air-Gap • build123d 3D CAD STL • SciPy RK45 Multiphysics│
+│ • RDKit Cheminformatics • Typst Vector PDF Engine (<50ms) • WebKitGTK / WebView2 │
+└──────────────────────────────────────────────────────────────────────────────────┘
+```
+
+* **47 Published Models & Adapters**: Spanning ternary 1.58-bit bitnets, semiconductor RTL design, pure mathematics, clinical health, and orbital mechanics.
 * **5,400+ Organic Downloads**: Adopted by independent researchers, academic labs, and physical engineering teams.
 * **100% Air-Gapped Workstations**: Engineered to run efficiently on low-power consumer silicon (under 4 GB RAM) without discrete GPUs.
 * **5 Foundation Research Volumes**: Empirical scaling laws, Sparse MoE routing, and deterministic neuro-symbolic benchmarks published on Kaggle.
 
 ---
 
-## Flagship Platform: Vigyan Pro v4.0.0
+## 🔬 Pillar 1: 1.58-Bit Ternary BitNet Foundations (125M Canary Suite)
 
-The flagship workstation is developed under our sovereign organization: **[Vigyan-workstation/vigyan-pro](https://github.com/Vigyan-workstation/vigyan-pro)**.
+We engineer extreme low-bit ternary foundation architectures where weights are restricted to $\\{-1, 0, +1\\}$, replacing power-hungry matrix multiplications with energy-efficient integer addition:
+
+- **Ultra-Low Memory Execution**: The entire 125M ternary model runs in **~40–60 MB RAM**, enabling high-speed deterministic inference on microcontrollers, Raspberry Pis, Rockchip NPUs, and standard laptop CPUs.
+- **Kaggle Cloud TPU v3-8 Pretraining**: Cold-start pretraining recipes engineered on Google Cloud TPUs utilizing non-blocking PJRT checkpointing and strict static shape compilation.
+- **Open-Access Model Suite**:
+  - [`shreyansh12183/vigyan-125m-158bit-canary`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-canary) — Official ternary BitNet Llama base model.
+  - [`shreyansh12183/vigyan-125m-158bit-gguf`](https://huggingface.co/shreyansh12183/vigyan-125m-158bit-gguf) — Complete quantization suite (`iq1_s`, `iq2_xxs`, `q2_k`, `q4_k_m`, `fp16`).
+  - [`shreyansh12183/vigyan-125m-sota-math`](https://huggingface.co/shreyansh12183/vigyan-125m-sota-math) — Certified mathematical reasoning canary with formal scorecards.
+  - [`shreyansh12183/vigyan-125m-agentic-tool`](https://huggingface.co/shreyansh12183/vigyan-125m-agentic-tool) — Atomic tool invocation canary for SymPy CAS integration.
+  - [`shreyansh12183/vigyan-125m-distilled`](https://huggingface.co/shreyansh12183/vigyan-125m-distilled) — Stage 1 and Stage 2 R1 distillation checkpoints.
+  - [`shreyansh12183/vigyan-indic-stem-tokenizer`](https://huggingface.co/shreyansh12183/vigyan-indic-stem-tokenizer) — Custom BPE tokenizer tailored for Indian STEM literature.
+
+---
+
+## 👁️ Pillar 2: Multimodal Engineering Vision (Vigyan-VL-4B)
+
+Technical engineering workflows demand visual intelligence to inspect physical blueprints, electronic circuits, and medical charts:
+
+- [`shreyansh12183/vigyan-vl-4b-instruct`](https://huggingface.co/shreyansh12183/vigyan-vl-4b-instruct) — High-density vision-language adapter built on `Qwen/Qwen3-VL-4B-Instruct`.
+- **Engineering Capabilities**:
+  - Procedural extraction from scanned KiCad PCB schematics and netlists.
+  - Dimension and tolerance parsing from mechanical CAD drawings.
+  - Handwritten prescription OCR and clinical document transcription.
+
+---
+
+## 🧬 Pillar 3: Clinical & Biophysics Deep Reasoning (DeepSeek-R1 14B & 32B Titan)
+
+To bridge the gap between statistical LLMs and rigorous scientific truth, we integrate deep chain-of-thought distillation with deterministic symbolic solvers:
+
+- **DeepSeek-R1 14B Clinical Suite**:
+  - [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-sft`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-sft) — Supervised Fine-Tuning for medical pathology, pharmacology, and biophysics.
+  - [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-dpo`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-dpo) — Direct Preference Optimization eliminating clinical reasoning shortcuts.
+  - [`shreyansh12183/vigyan-r1-14b-health-semi-quantum-gguf`](https://huggingface.co/shreyansh12183/vigyan-r1-14b-health-semi-quantum-gguf) — **6.60 GB Standalone IQ3_M GGUF** for completely private hospital oncology and clinical research workstations.
+- **Frontier 32B Scale**:
+  - [`shreyansh12183/vigyan-gen4-32b-sft-adapter`](https://huggingface.co/shreyansh12183/vigyan-gen4-32b-sft-adapter) — 32B parameter symbolic reasoning adapter on `allenai/Olmo-3.1-32B-Instruct` for doctoral mathematics and complex VLSI synthesis.
+
+---
+
+## 💻 Pillar 4: Sovereign Desktop Workstation (Vigyan Pro v4.1.0)
+
+The flagship physical engineering workstation is developed under our sovereign organization: **[Vigyan-workstation/vigyan-pro](https://github.com/Vigyan-workstation/vigyan-pro)**.
 
 ### Architectural Core
 1. **Deterministic SymPy CAS Kernel**:
    All calculus, algebraic derivations, and matrix equations are evaluated through an in-process AST sandbox (`validate_sympy_ast`), eliminating hallucinated arithmetic.
-2. **First-Class GGUF Model Management CLI**:
-   Built-in model supervisor to check host RAM headroom, query Hugging Face Hub, and stream quantized weights directly to disk:
+2. **Parametric 3D CAD (`vigyan cad`)**:
+   Embedded `build123d` and `OpenCASCADE` engine generating manufacturing-ready STL solid meshes on-device with an interactive Three.js turntable viewport.
+3. **SciPy RK45 Multiphysics (`vigyan sim`)**:
+   Dynamic 60 FPS trajectory simulator solving non-linear ODEs with interactive parameter sliders.
+4. **RDKit Cheminformatics (`vigyan chem`)**:
+   Molecular descriptor evaluation (MW, LogP, TPSA) and vector SVG chemical bond rendering.
+5. **Sub-50ms Typst PDF Engine**:
+   Embedded vector compiler generating publication-ready academic papers with SymPy verification badges.
+6. **First-Class GGUF Model Management CLI**:
+   Built-in model supervisor to check host RAM headroom, query Hugging Face Hub, and stream quantized weights directly to disk with a 10-minute idle RAM reaper:
    ```bash
    vigyan model status
    vigyan model list --remote
    vigyan model pull vigyan-2b-reasoning-q4_k_m.gguf
    ```
-3. **Autonomous Learning Ledger**:
+7. **Autonomous Learning Ledger**:
    Reversible in-context memory ledger (`vigyan learn`, `vigyan ledger`, `vigyan undo`) backed by git history with a strict 150-line telemetry budget.
-4. **Universal AI Coding Agent Directives**:
+8. **Universal AI Coding Agent Directives**:
    Fully certified instructions for autonomous development agents (`AGENTS.md`, `CLAUDE.md`, `.cursorrules`, Copilot instructions) with multi-platform CI passing across Linux, macOS, and Windows.
+
+---
+
+## 🏛️ Sovereign Fleet Benchmark Matrix
+
+| Fleet Tier | Parameters | Base Scaffold | Exam Suite | Score / Metric | Binary Size | Primary Specialization |
+| :--- | :---: | :--- | :--- | :---: | :---: | :--- |
+| **Vigyan-125M** ⚡ | 125M | `Llama / BitNet b1.58` | Atomic Math & Tools | **Certified STE** | **~50 MB** | 1.58-bit ternary edge canary, microcontrollers |
+| **Vigyan-1.5B** | 1.54B | `DeepSeek-R1-Distill-1.5B` | 100 Frontier STEM | **43.0%** | **1.11 GB** | Ultra-light edge scout, IoT, PhD Math (75.0%) |
+| **Vigyan-3B** 🚀 | 3.09B | `Qwen2.5-3B-Instruct` | 100 Frontier STEM | **69.0%** | **1.39 GB (IQ3_M)** | **Flagship Quad-Master:** RTL & EDA (85.0%), Math (85.0%) |
+| **Vigyan-VL-4B** 👁️ | 4.10B | `Qwen3-VL-4B-Instruct` | Technical Vision | **Zero-Shot OCR** | **263 MB (LoRA)** | Schematics, PCB netlists, CAD drawings, Radiology |
+| **Vigyan-7B** | 7.01B | `OLMo-2-1124-7B` | 100 Frontier STEM | **65.0%** | **3.31 GB (IQ3_M)** | Sovereign Architect, Quantum Chemistry |
+| **Vigyan-R1-14B** 🧬 | 14.7B | `DeepSeek-R1-Qwen-14B` | Clinical & Biophysics | **R1 Distill + DPO** | **6.60 GB (IQ3_M)** | Air-gapped medical due diligence, drug discovery |
+| **Vigyan-32B Titan** | 32.5B | `Olmo-3.1-32B-Instruct` | GSM8K Arithmetic | **84.2%** | *Cloud / AWS* | Frontier Symbolic Proofs & High-Complexity ASIC RTL |
+
+> 🔍 **Open Verification**: Run `python reproduce_fleet_audit.py --model all` to verify all 100 test cases per model in < 2 seconds via the [Unified Benchmark Harness](https://github.com/shreyansh001boy-tech/vigyan-dpo-benchmark-harness).
 
 ---
 
