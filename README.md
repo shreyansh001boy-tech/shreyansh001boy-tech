@@ -9,6 +9,7 @@
 [![Hugging Face](https://img.shields.io/badge/HF_Fleet-15_Sovereign_Models-000000?style=flat&logo=huggingface&logoColor=ffd21e)](https://huggingface.co/ExperimentLab)
 [![Kaggle Research](https://img.shields.io/badge/Kaggle-5_Research_Volumes-000000?style=flat&logo=kaggle&logoColor=20BEFF)](https://www.kaggle.com/shreyansh00singh)
 [![Discord](https://img.shields.io/badge/Community-ExperimentLab-000000?style=flat&logo=discord&logoColor=5865F2)](https://discord.com/invite/Jck3tD6mhf)
+[![Buy Me a Chai](https://img.shields.io/badge/Sponsor_Research-Buy_Me_A_Chai-000000?style=flat&logo=coffeescript&logoColor=white)](https://buymeachai.in/shreyansh001boy)
 
 <p align="center">
   <b>Architecting sovereign foundation models, extreme low-bit ternary architectures (1.58-bit BitNet), and 100% air-gapped physical engineering workstations running on local consumer silicon.</b>
@@ -82,6 +83,20 @@ Available for direct download at **[experimentlab.in/download](https://experimen
 | [**Vidhi AI 1.5B Masterpiece**](https://huggingface.co/shreyansh12183/vidhi-ai-1.5b-sovereign-masterpiece) | Indian Law, BNS/BNSS 2023 Statutory Mapping | 1.06 GB | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/97736d594721ab8e37912cd381fdf968/colab_demo_vidhi_1_5b.ipynb) |
 | [**Vigyan 7B Quad-Master**](https://huggingface.co/shreyansh12183/vigyan-olmo2-7b-quad-master) | SLERP Merge of 4 Specialists (Math, RTL, Bio, Astro) | 4.26 GB | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/94f86027e672aa60dbda383eca6cf122/colab_demo_vigyan_7b_quad_master.ipynb) |
 | [**Vigyan OLMoE 1B-7B DPO**](https://huggingface.co/shreyansh12183/vigyan-olmoe-1b-7b-dpo-masterpiece) | Sparse MoE (1.3B active params/token), STEM Reasoning | 4.02 GB | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/shreyansh001boy-tech/1222eec06995b9b046bb76096495a653/colab_demo_vigyan_olmoe_1b_7b.ipynb) |
+
+---
+
+### ☕ Support Sovereign Research Compute
+
+If you value our open models, sovereign training recipes, and air-gapped workstations, consider backing our independent compute research:
+
+<p align="center">
+  <a href="https://buymeachai.in/shreyansh001boy" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Support_Open_Research-Buy_Me_A_Chai-FF813F?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Buy Me A Chai">
+  </a>
+  <br>
+  <sub>Direct Patronage: <a href="https://buymeachai.in/shreyansh001boy">buymeachai.in/shreyansh001boy</a> &bull; 100% routed toward sovereign TPU/GPU compute and open-source model releases.</sub>
+</p>
 
 ---
 
